@@ -1,0 +1,34 @@
+# Standard exclusions
+node_modules/
+dist/
+*.local
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# IBV framework lives at user-level (~/.claude/, ~/.specify/)
+# Exclude framework debris but keep the project's IBV connector files
+.claude/*
+!.claude/settings.json
+.specify/
+
+# Specs live in Z:\keeply-blog (separate git repo on NAS)
+specs/
+
+# IBV runtime state (per-machine, never share)
+.metrics/
+
+# Local PRD drafts and brainstorming
+0.idea/
+
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo stats
+hugo_stats.json

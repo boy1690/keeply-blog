@@ -1,0 +1,134 @@
+baseURL = "https://keeply.work/blog/"
+languageCode = "en"
+title = "Keeply Blog"
+theme = "hugo-theme-stack"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true  # 英文也走 /en/ 子路徑，19 語言一致
+
+# 啟用 emoji
+enableEmoji = true
+
+# Build 優化
+[build]
+  writeStats = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true  # 允許 HTML in markdown
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+
+[params]
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
+
+  [params.footer]
+    since = 2026
+    customText = "Keeply — Your files have a story."
+
+  [params.sidebar]
+    compact = false
+    emoji = "📂"
+    subtitle = "Version control, reinvented for non-developers."
+
+  # avatar is a string path to an image in assets/
+  # [params.sidebar.avatar] — disabled until we add assets/img/avatar.png
+
+  [params.article]
+    math = false
+    toc = true
+    readingTime = true
+
+  [params.comments]
+    enabled = false  # Phase 1 不開
+
+# 19 語言設定
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Keeply Blog"
+    weight = 1
+    contentDir = "content/english"
+  [languages.zh-tw]
+    languageName = "繁體中文"
+    title = "Keeply 部落格"
+    weight = 2
+  [languages.zh-cn]
+    languageName = "简体中文"
+    title = "Keeply 博客"
+    weight = 3
+  [languages.ja]
+    languageName = "日本語"
+    title = "Keeply ブログ"
+    weight = 4
+  [languages.ko]
+    languageName = "한국어"
+    title = "Keeply 블로그"
+    weight = 5
+  [languages.de]
+    languageName = "Deutsch"
+    title = "Keeply Blog"
+    weight = 6
+  [languages.es]
+    languageName = "Español"
+    title = "Keeply Blog"
+    weight = 7
+  [languages.fr]
+    languageName = "Français"
+    title = "Keeply Blog"
+    weight = 8
+  [languages.it]
+    languageName = "Italiano"
+    title = "Keeply Blog"
+    weight = 9
+  [languages.pt]
+    languageName = "Português"
+    title = "Keeply Blog"
+    weight = 10
+  [languages.ru]
+    languageName = "Русский"
+    title = "Keeply Блог"
+    weight = 11
+  [languages.nl]
+    languageName = "Nederlands"
+    title = "Keeply Blog"
+    weight = 12
+  [languages.pl]
+    languageName = "Polski"
+    title = "Keeply Blog"
+    weight = 13
+  [languages.tr]
+    languageName = "Türkçe"
+    title = "Keeply Blog"
+    weight = 14
+  [languages.vi]
+    languageName = "Tiếng Việt"
+    title = "Keeply Blog"
+    weight = 15
+  [languages.th]
+    languageName = "ภาษาไทย"
+    title = "Keeply Blog"
+    weight = 16
+  [languages.id]
+    languageName = "Bahasa Indonesia"
+    title = "Keeply Blog"
+    weight = 17
+  [languages.ar]
+    languageName = "العربية"
+    title = "Keeply Blog"
+    languagedirection = "rtl"
+    weight = 18
+  [languages.hi]
+    languageName = "हिन्दी"
+    title = "Keeply Blog"
+    weight = 19
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Keeply 主站"
+    url = "https://keeply.work"
+    weight = -100
