@@ -56,18 +56,21 @@ enableEmoji = true
     languageName = "繁體中文"
     title = "Keeply 部落格"
     weight = 2
+    contentDir = "content/zh-tw"
     [languages.zh-tw.params.sidebar]
       subtitle = "你的檔案管理守護神"
   [languages.zh-cn]
     languageName = "简体中文"
     title = "Keeply 博客"
     weight = 3
+    contentDir = "content/zh-cn"
     [languages.zh-cn.params.sidebar]
       subtitle = "你的文件管理守护神"
   [languages.ja]
     languageName = "日本語"
     title = "Keeply ブログ"
     weight = 4
+    contentDir = "content/ja"
     [languages.ja.params.sidebar]
       subtitle = "ファイル管理の守り神"
   [languages.ko]
