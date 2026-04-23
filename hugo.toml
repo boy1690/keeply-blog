@@ -77,63 +77,78 @@ enableEmoji = true
     languageName = "한국어"
     title = "Keeply 블로그"
     weight = 5
+    contentDir = "content/ko"
   [languages.de]
     languageName = "Deutsch"
     title = "Keeply Blog"
     weight = 6
+    contentDir = "content/de"
   [languages.es]
     languageName = "Español"
     title = "Keeply Blog"
     weight = 7
+    contentDir = "content/es"
   [languages.fr]
     languageName = "Français"
     title = "Keeply Blog"
     weight = 8
+    contentDir = "content/fr"
   [languages.it]
     languageName = "Italiano"
     title = "Keeply Blog"
     weight = 9
+    contentDir = "content/it"
   [languages.pt]
     languageName = "Português"
     title = "Keeply Blog"
     weight = 10
+    contentDir = "content/pt"
   [languages.ru]
     languageName = "Русский"
     title = "Keeply Блог"
     weight = 11
+    contentDir = "content/ru"
   [languages.nl]
     languageName = "Nederlands"
     title = "Keeply Blog"
     weight = 12
+    contentDir = "content/nl"
   [languages.pl]
     languageName = "Polski"
     title = "Keeply Blog"
     weight = 13
+    contentDir = "content/pl"
   [languages.tr]
     languageName = "Türkçe"
     title = "Keeply Blog"
     weight = 14
+    contentDir = "content/tr"
   [languages.vi]
     languageName = "Tiếng Việt"
     title = "Keeply Blog"
     weight = 15
+    contentDir = "content/vi"
   [languages.th]
     languageName = "ภาษาไทย"
     title = "Keeply Blog"
     weight = 16
+    contentDir = "content/th"
   [languages.id]
     languageName = "Bahasa Indonesia"
     title = "Keeply Blog"
     weight = 17
+    contentDir = "content/id"
   [languages.ar]
     languageName = "العربية"
     title = "Keeply Blog"
     languagedirection = "rtl"
     weight = 18
+    contentDir = "content/ar"
   [languages.hi]
     languageName = "हिन्दी"
     title = "Keeply Blog"
     weight = 19
+    contentDir = "content/hi"
 
 [menu]
   [[menu.main]]
