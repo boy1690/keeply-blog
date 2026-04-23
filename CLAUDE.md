@@ -101,6 +101,6 @@ keeply-blog/
 
 ## BWF 版本
 
-v0.1 最小可跑版。已實作：T1 Pillar 模板、4 個 GATE、TRAP 列表、hooks/titles/ctas library、`/bwf` slash command。
+v0.1 最小可跑版。已實作：T1 Pillar 模板、4 個 GATE、TRAP 列表、hooks/titles/ctas library、`/blg` slash command。
 
 未實作（v0.2+）：T2-T6 模板、Python lint 腳本、LoopGuard 自動化、feedforward.xml、learnings.md 彙整 job、`specs/` 同步到 `Z:\keeply-blog\` 自動化。

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // Scan Hugo templates + content + JS assets for class usage.
   content: [
     './layouts/**/*.html',
     './content/**/*.{html,md}',
