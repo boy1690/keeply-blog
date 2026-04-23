@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}" class="scroll-smooth">
+<head>
+  {{- partial "head.html" . -}}
+  {{- block "head" . -}}{{- end -}}
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased">
+
+{{- /* Reading progress bar — only on single article pages */ -}}
+{{- if .IsPage -}}
+  <div class="reading-progress" id="reading-progress"></div>
+{{- end -}}
+
+{{- partial "nav.html" . -}}
+
+<main class="pt-16">
+  {{- block "main" . -}}{{- end -}}
+</main>
+
+{{- partial "footer.html" . -}}
+
+{{- if .IsPage -}}
+<script>
+  (function() {
+    var bar = document.getElementById('reading-progress');
+    if (!bar) return;
+    function update() {
+      var h = document.documentElement;
+      var scrollTop = h.scrollTop || document.body.scrollTop;
+      var scrollHeight = (h.scrollHeight || document.body.scrollHeight) - h.clientHeight;
+      var pct = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+      bar.style.width = Math.min(100, Math.max(0, pct)) + '%';
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update, { passive: true });
+    update();
+  })();
+</script>
+{{- end -}}
+
+{{- /* TOC active link highlight — single pages only */ -}}
+{{- if and .IsPage (.Params.toc | default .Site.Params.article.toc) -}}
+<script>
+  (function() {
+    var tocLinks = document.querySelectorAll('.toc-fixed nav a');
+    if (!tocLinks.length) return;
+    var headings = Array.prototype.map.call(tocLinks, function(a) {
+      var id = a.getAttribute('href').slice(1);
+      return { link: a, el: document.getElementById(id) };
+    }).filter(function(h) { return h.el; });
+    function onScroll() {
+      var offset = 120;
+      var active = null;
+      for (var i = 0; i < headings.length; i++) {
+        var rect = headings[i].el.getBoundingClientRect();
+        if (rect.top - offset <= 0) active = headings[i];
+      }
+      tocLinks.forEach(function(l) { l.classList.remove('active'); });
+      if (active) active.link.classList.add('active');
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  })();
+</script>
+{{- end -}}
+
+</body>
+</html>

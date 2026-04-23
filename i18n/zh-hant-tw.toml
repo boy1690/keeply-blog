@@ -1,0 +1,46 @@
+nav_posts = "文章"
+nav_categories = "分類"
+nav_search = "搜尋"
+nav_download = "免費下載"
+
+hero_badge = "Keeply 部落格 · 每週更新"
+hero_title_1 = "檔案管理的"
+hero_title_2 = "真實故事。"
+hero_subtitle = "給設計師、建築師、律師、會計師的檔案版本管理指南。沒有 Git，沒有術語，只有你的工作。"
+
+section_featured = "精選文章"
+section_latest = "最新文章"
+section_browse = "依主題瀏覽"
+section_related = "你可能也會喜歡"
+section_tags = "標籤"
+
+see_all = "看全部"
+read_more = "繼續閱讀"
+reading_time = "{{ .count }} 分鐘閱讀"
+posts_count = "共 {{ .count }} 篇文章"
+
+page_previous = "上一頁"
+page_next = "下一頁"
+
+toc_title = "目錄"
+
+cta_title = "準備好試試看了嗎？"
+cta_subtitle = "免費下載 Keeply，30 秒開始。"
+cta_button = "免費下載 Keeply"
+cta_sidebar_label = "試試 Keeply"
+cta_sidebar_title = "給你的檔案一個時光機"
+
+footer_site = "主站"
+footer_rss = "訂閱 RSS"
+footer_all_categories = "所有分類"
+footer_privacy = "隱私權政策"
+footer_buy = "購買永久授權"
+footer_tagline = "你的檔案有故事。"
+
+empty_no_posts = "文章即將上線"
+empty_no_posts_sub = "我們正在努力寫作中，稍後再回來看看，或先 "
+empty_try_keeply = "試試 Keeply"
+empty_no_posts_end = "。"
+
+breadcrumb_home = "首頁"
+by_author = "作者："

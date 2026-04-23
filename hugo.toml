@@ -53,6 +53,7 @@ enableEmoji = true
     weight = 1
     contentDir = "content/english"
   [languages.zh-tw]
+    languageCode = "zh-Hant-TW"
     languageName = "繁體中文"
     title = "Keeply 部落格"
     weight = 2
