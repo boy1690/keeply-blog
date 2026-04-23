@@ -32,7 +32,7 @@ enableEmoji = true
   [params.sidebar]
     compact = false
     emoji = "📂"
-    subtitle = "Version control, reinvented for non-developers."
+    subtitle = "Your file-management guardian"
 
   # avatar is a string path to an image in assets/
   # [params.sidebar.avatar] — disabled until we add assets/img/avatar.png
@@ -56,14 +56,20 @@ enableEmoji = true
     languageName = "繁體中文"
     title = "Keeply 部落格"
     weight = 2
+    [languages.zh-tw.params.sidebar]
+      subtitle = "你的檔案管理守護神"
   [languages.zh-cn]
     languageName = "简体中文"
     title = "Keeply 博客"
     weight = 3
+    [languages.zh-cn.params.sidebar]
+      subtitle = "你的文件管理守护神"
   [languages.ja]
     languageName = "日本語"
     title = "Keeply ブログ"
     weight = 4
+    [languages.ja.params.sidebar]
+      subtitle = "ファイル管理の守り神"
   [languages.ko]
     languageName = "한국어"
     title = "Keeply 블로그"

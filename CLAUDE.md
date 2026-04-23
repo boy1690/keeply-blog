@@ -34,7 +34,7 @@ Note：`Z:\keeply-blog\` 需要 `git config --global --add safe.directory '%(pre
   禁用詞：commit、branch、rebase、merge、HEAD、diff、push、pull、stash、repository、checkout、master、main、origin
 - **P0.2** 永不把 Keeply 定位為「給非開發者的 Git」。Keeply 不是 Git-derived，是為了讓不學 Git 的人也能管檔案歷史。
 - **P0.3** 禁寫競品 hit-piece。比較文必須事實、具體、承認對方何時是對的選擇。
-- **P0.4** 禁捏造統計。每個數字要能追到 `sources.md` 的 URL，或明確標「內部估算」。
+- **P0.4** 禁捏造統計。每個數字必須有外部可訪問 URL 引用（學術、機構、大廠公開調查）。內部估算不得作為論證主幹；只能在已有外部引用旁做補充運算（例：外部研究顯示 X → 本文換算 Y）。若找不到外部引用，刪掉數字用定性論述。
 - **P0.5** 客戶姓名/引言：必須能在 `specs/{slug}/sources.md` 追到具體人+日期+同意紀錄，或用「【合成範例】」前綴明確標記。未經書面同意禁用真實姓名。
 - **P0.6** AI-tell phrases 零命中（對照 `~/.claude/bwf/traps.md`）。
 - **P0.7** 原文用英文。文化中立——無美式慣用語、運動比喻、流行文化引用。
@@ -58,6 +58,8 @@ Note：`Z:\keeply-blog\` 需要 `git config --global --add safe.directory '%(pre
 - **P1.8** Flesch Reading Ease ≥60（ICP：設計師/建築師/律師/會計師）。
 - **P1.9** 文章 1,200–2,200 字，除 T6 Founder Note（300–800）。
 - **P1.10** Hugo front-matter 必有：title、description、date、tags、draft、primary_keyword、locales。
+- **P1.11** SEO 標題規則：primary_keyword 出現在標題前半（zh 前 3-5 字；en 前 30 char）；標題含具體數字或 hook；長度 zh 28-35 全形字、en 50-60 char。寫完後做「雙版本檢查」：一版為 voice 寫、一版為 SEO 寫，合併較好部分。
+- **P1.12** 引用格式：每個統計數字 inline markdown link 到原始來源；來源優先序：學術/大型機構 > 大廠公開調查 > 媒體二手（後者要再追到原始）。所有引用同步登錄 `specs/{slug}/sources.md`。
 - Prefer Hugo built-in features over custom code
 - Content in markdown only, no HTML templates unless necessary
 

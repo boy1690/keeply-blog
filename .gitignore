@@ -29,6 +29,12 @@ specs/
 # Hugo build output
 public/
 resources/_gen/
+.hugo_build.lock
 
-# Hugo stats
+# Hugo stats (writeStats = true generates these)
 hugo_stats.json
+assets/jsconfig.json
+
+# Python bytecode (BWF lint scripts)
+__pycache__/
+*.pyc
