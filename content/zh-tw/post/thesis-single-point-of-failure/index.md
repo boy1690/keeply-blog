@@ -3,6 +3,8 @@ title: "碩士論文的單點故障：兩年心血押在一台電腦，而你連
 description: "週三下午三點，教授傳訊息：『你上一版那段比較好，怎麼不見了？』你打開 thesis_final_v7，想不起 v5 跟 v6 差在哪。論文真正的風險不是寫不完，是你忘了差異是什麼，而檔案系統也不會幫你記。給碩博生的四步版本管理實戰：不用改流程，不用學術語，讓論文這兩年的軌跡自己留下來。"
 slug: "thesis-single-point-of-failure"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - 檔案管理
 tags:

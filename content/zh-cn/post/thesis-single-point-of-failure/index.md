@@ -3,6 +3,8 @@ title: "硕士论文的单点故障：两年心血押在一台电脑，而你连
 description: "周三下午三点，导师发来消息：『你上一版那段比较好，怎么不见了？』你打开 thesis_final_v7，想不起 v5 跟 v6 差在哪。论文真正的风险不是写不完，是你忘了差异是什么，而文件系统也不会帮你记。给硕博生的四步版本管理实战：不用改流程，不用学术语，让论文这两年的轨迹自己留下来。"
 slug: "thesis-single-point-of-failure"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - 文件管理
 tags:

@@ -3,6 +3,8 @@ title: "Masters Thesis Version Control: The Diff You Forgot"
 description: "Wednesday, 3 p.m. Your advisor messages: 'Your previous version of Chapter 3 was stronger—where did it go?' You open thesis_final_v7 and can't remember what v5 or v6 said. The real risk to your thesis isn't missing the deadline. It's forgetting the diff—and your file system won't remember it either. A four-step version-management playbook for grad students: no workflow changes, no jargon, just let two years of thinking leave a trail."
 slug: "thesis-single-point-of-failure"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - File management
 tags:
