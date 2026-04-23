@@ -21,7 +21,7 @@
         </a>
       {{- end -}}
       {{- /* Language switcher */ -}}
-      {{- if gt (len .Site.Languages) 1 -}}
+      {{- if gt (len hugo.Sites) 1 -}}
         <details class="relative">
           <summary class="list-none flex items-center gap-1.5 text-sm font-medium text-gray-600 hover:text-brand-600 border border-gray-200 hover:border-brand-300 px-3 py-1.5 rounded-full transition-all cursor-pointer select-none">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
@@ -34,19 +34,19 @@
             </svg>
           </summary>
           <div class="absolute right-0 top-full mt-2 w-56 max-h-80 overflow-y-auto bg-white border border-gray-100 rounded-2xl shadow-xl py-2 z-50">
-            {{- range .Site.Languages -}}
-              {{- $otherLang := . -}}
+            {{- range hugo.Sites -}}
+              {{- $otherLang := .Language -}}
               {{- $translation := "" -}}
               {{- range $.AllTranslations -}}
                 {{- if eq .Lang $otherLang.Lang -}}{{- $translation = . -}}{{- end -}}
               {{- end -}}
               {{- if $translation -}}
                 <a href="{{ $translation.RelPermalink }}" class="block px-4 py-2 text-sm {{ if eq $otherLang.Lang $lang }}text-brand-700 font-semibold bg-brand-50{{ else }}text-gray-700 hover:bg-gray-50{{ end }}">
-                  {{ .LanguageName }}
+                  {{ $otherLang.LanguageName }}
                 </a>
               {{- else -}}
-                <a href="/{{ .Lang }}/" class="block px-4 py-2 text-sm {{ if eq $otherLang.Lang $lang }}text-brand-700 font-semibold bg-brand-50{{ else }}text-gray-500 hover:bg-gray-50{{ end }}">
-                  {{ .LanguageName }}
+                <a href="/{{ $otherLang.Lang }}/" class="block px-4 py-2 text-sm {{ if eq $otherLang.Lang $lang }}text-brand-700 font-semibold bg-brand-50{{ else }}text-gray-500 hover:bg-gray-50{{ end }}">
+                  {{ $otherLang.LanguageName }}
                 </a>
               {{- end -}}
             {{- end -}}

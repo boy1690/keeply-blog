@@ -3,6 +3,8 @@ title: "Shared folder version problems: the 83-hour micro-panic tax"
 description: "It's 5:30 Thursday. You've finished the plan, but your hand hovers over the filename. Your tool pushes defense onto your memory. 83 hours a year, paid in anxiety."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - File management
 tags:

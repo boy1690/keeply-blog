@@ -10,7 +10,10 @@
   <a href="{{ $p.RelPermalink }}" class="flex gap-5">
     <div class="flex-shrink-0 w-28 sm:w-40 md:w-48 aspect-[16/10] rounded-xl overflow-hidden">
       {{- with $p.Params.image -}}
-        <img src="{{ . | absURL }}" alt="{{ $p.Title }}" class="w-full h-full object-cover" loading="lazy" />
+        {{- $res := $p.Resources.GetMatch . -}}
+        {{- $src := . | absURL -}}
+        {{- if $res -}}{{- $src = $res.RelPermalink -}}{{- end -}}
+        <img src="{{ $src }}" alt="{{ $p.Title }}" class="w-full h-full object-contain" loading="lazy" />
       {{- else -}}
         <div class="w-full h-full bg-gradient-to-br {{ $grad }} flex items-center justify-center text-4xl">
           {{ $emoji }}

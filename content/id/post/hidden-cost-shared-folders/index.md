@@ -3,6 +3,8 @@ title: "Masalah versi folder bersama: pajak tahunan 83 jam mikro-panik"
 description: "Kamis 17:30. Gambar selesai, tapi tanganmu menggantung di atas nama file. Alatmu melempar beban pertahanan ke memorimu. 83 jam setahun, dibayar dengan kecemasan."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Manajemen file
 tags:

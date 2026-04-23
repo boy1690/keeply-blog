@@ -3,6 +3,8 @@ title: "공유 폴더의 파일 버전 문제: 매일 내는 마이크로 패닉
 description: "목요일 오후 5시 30분. 도면은 다 그렸는데, 손은 파일명 위에서 멈춰있다. 관리 문제가 아니다. 도구가 지키는 책임을 당신의 기억에 떠넘기고 있다. 1년 83시간, 불안으로 지불하는 세금."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - 파일 관리
 tags:

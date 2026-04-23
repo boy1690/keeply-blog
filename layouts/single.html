@@ -60,8 +60,11 @@
 
     <div class="max-w-2xl mx-auto w-full prose-keeply">
       {{- with .Params.image -}}
+        {{- $res := $.Resources.GetMatch . -}}
+        {{- $src := . | absURL -}}
+        {{- if $res -}}{{- $src = $res.RelPermalink -}}{{- end -}}
         <div class="aspect-[16/9] rounded-2xl overflow-hidden mb-8">
-          <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="w-full h-full object-cover" />
+          <img src="{{ $src }}" alt="{{ $.Title }}" class="w-full h-full object-contain bg-brand-50/30" />
         </div>
       {{- end -}}
       {{ .Content }}

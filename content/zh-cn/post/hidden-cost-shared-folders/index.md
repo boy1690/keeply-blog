@@ -3,6 +3,8 @@ title: "共享文件夹的文件版本问题：每天都在缴的微型恐慌税
 description: "周四下午五点半，你已经画完图，手却悬在文件名上。这不是管理问题，是工具把保护心血的责任推给你的记忆力。一年 83 小时的防御税，该停了。"
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - 文件管理
 tags:

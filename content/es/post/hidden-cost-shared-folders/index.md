@@ -3,6 +3,8 @@ title: "El problema de versiones en carpetas compartidas: el impuesto anual de 8
 description: "Son las 17:30 del jueves. Has terminado el plano, pero tu mano se queda sobre el nombre del archivo. Tu herramienta descarga la defensa en tu memoria. 83 horas al año, pagadas en ansiedad."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Gestión de archivos
 tags:

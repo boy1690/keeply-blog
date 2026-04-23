@@ -9,8 +9,11 @@
 <article class="group bg-white rounded-2xl border border-gray-100 overflow-hidden glow-hover transition-all">
   <a href="{{ $p.RelPermalink }}" class="block">
     {{- with $p.Params.image -}}
+      {{- $res := $p.Resources.GetMatch . -}}
+      {{- $src := . | absURL -}}
+      {{- if $res -}}{{- $src = $res.RelPermalink -}}{{- end -}}
       <div class="aspect-[16/9] bg-gradient-to-br {{ $grad }} overflow-hidden">
-        <img src="{{ . | absURL }}" alt="{{ $p.Title }}" class="w-full h-full object-cover" loading="lazy" />
+        <img src="{{ $src }}" alt="{{ $p.Title }}" class="w-full h-full object-contain" loading="lazy" />
       </div>
     {{- else -}}
       <div class="aspect-[16/9] bg-gradient-to-br {{ $grad }} flex items-center justify-center text-5xl">

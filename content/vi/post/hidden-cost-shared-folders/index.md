@@ -3,6 +3,8 @@ title: "Vấn đề phiên bản trong thư mục dùng chung: thuế hoảng lo
 description: "17:30 thứ Năm. Bản vẽ đã xong, nhưng tay bạn treo lơ lửng trên tên tệp. Công cụ của bạn đẩy trách nhiệm bảo vệ lên trí nhớ của bạn. 83 giờ mỗi năm, trả bằng lo lắng."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Quản lý tệp
 tags:

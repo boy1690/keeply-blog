@@ -3,6 +3,8 @@ title: "Paylaşılan klasörlerin sürüm sorunu: yılda 83 saatlik mikropanik v
 description: "Perşembe, 17:30. Plan bitti ama elin dosya adının üzerinde kalakaldı. Aracın savunma yükünü hafızana bırakıyor. Yılda 83 saat, endişeyle ödenen vergi."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Dosya yönetimi
 tags:

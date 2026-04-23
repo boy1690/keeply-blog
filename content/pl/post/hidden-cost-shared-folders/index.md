@@ -3,6 +3,8 @@ title: "Problem wersji w folderach współdzielonych: roczny podatek 83 godzin m
 description: "Czwartek, 17:30. Rzut jest gotowy, ale ręka zawisła nad nazwą pliku. Twoje narzędzie zrzuca obronę na twoją pamięć. 83 godziny rocznie, zapłacone niepokojem."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Zarządzanie plikami
 tags:

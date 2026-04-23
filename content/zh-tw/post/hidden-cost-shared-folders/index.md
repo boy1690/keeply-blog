@@ -3,6 +3,8 @@ title: "共用資料夾的檔案版本問題：每天都在繳的微型恐慌稅
 description: "星期四下午五點半，你已經畫完圖，手卻懸在檔名上。這不是管理問題，是工具把保護心血的責任推給你的記憶力。一年 83 小時的防禦稅，該停了。"
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - 檔案管理
 tags:

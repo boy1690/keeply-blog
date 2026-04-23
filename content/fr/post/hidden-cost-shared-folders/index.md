@@ -3,6 +3,8 @@ title: "Le problème de versions des dossiers partagés : la taxe annuelle de 83
 description: "17h30 un jeudi. Vous avez fini le plan, mais votre main hésite sur le nom du fichier. Votre outil rejette la défense sur votre mémoire. 83 heures par an, payées en anxiété."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Gestion de fichiers
 tags:

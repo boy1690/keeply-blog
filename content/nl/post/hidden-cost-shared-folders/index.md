@@ -3,6 +3,8 @@ title: "Het versieprobleem van gedeelde mappen: de jaarlijkse belasting van 83 u
 description: "Donderdag 17:30. De plattegrond is klaar, maar je hand blijft hangen boven de bestandsnaam. Je tool schuift de verdediging af op jouw geheugen. 83 uur per jaar, betaald in angst."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Bestandsbeheer
 tags:

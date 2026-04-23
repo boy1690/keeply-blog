@@ -3,6 +3,8 @@ title: "O problema de versões em pastas compartilhadas: o imposto anual de 83 h
 description: "Quinta-feira, 17h30. Você terminou a planta, mas sua mão paira sobre o nome do arquivo. Sua ferramenta joga a defesa na sua memória. 83 horas por ano, pagas em ansiedade."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Gerenciamento de arquivos
 tags:

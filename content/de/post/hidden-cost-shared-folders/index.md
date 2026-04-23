@@ -3,6 +3,8 @@ title: "Das Versionsproblem geteilter Ordner: die 83-Stunden-Panik-Steuer"
 description: "Donnerstag, 17:30. Der Grundriss ist fertig, aber Ihre Hand schwebt über dem Dateinamen. Ihre Werkzeuge schieben die Verteidigung auf Ihr Gedächtnis. 83 Stunden pro Jahr, in Angst bezahlt."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Dateiverwaltung
 tags:

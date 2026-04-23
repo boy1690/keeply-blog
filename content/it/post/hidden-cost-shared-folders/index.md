@@ -3,6 +3,8 @@ title: "Il problema delle versioni nelle cartelle condivise: la tassa annuale di
 description: "Giovedì, 17:30. Hai finito la planimetria, ma la tua mano resta sospesa sul nome del file. Il tuo strumento scarica la difesa sulla tua memoria. 83 ore all'anno, pagate in ansia."
 slug: "hidden-cost-shared-folders"
 date: 2026-04-23
+image: cover.svg
+og_image: cover.png
 categories:
   - Gestione file
 tags:
