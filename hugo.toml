@@ -1,4 +1,4 @@
-baseURL = "https://keeply.work/blog/"
+baseURL = "https://blog.keeply.work/"
 languageCode = "en"
 title = "Keeply Blog"
 theme = "hugo-theme-stack"

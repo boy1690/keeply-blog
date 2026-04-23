@@ -44,7 +44,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://keeply.work/blog/"
+            --baseURL "https://blog.keeply.work/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
