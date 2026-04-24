@@ -73,8 +73,15 @@
 <link rel="preload" href="{{ "fonts/MPLUSRounded1c-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="{{ "fonts/MPLUSRounded1c-Bold.woff2" | absURL }}" as="font" type="font/woff2" crossorigin />
 
-{{- /* Stylesheet */ -}}
-<link rel="stylesheet" href="{{ "style.css" | absURL }}" />
+{{- /* Content Security Policy fallback (defence-in-depth; Cloudflare header
+       CSP is authoritative). frame-ancestors / HSTS / Permissions-Policy are
+       header-only and live in the Cloudflare Transform Rule. */ -}}
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://cloudflareinsights.com; form-action 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
+{{- /* Stylesheet (SRI via Hugo fingerprint) */ -}}
+{{- $css := resources.Get "css/style.css" | resources.Fingerprint "sha384" -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous" />
 
 {{- /* JSON-LD (article / website) */ -}}
 {{- if .IsPage -}}

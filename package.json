@@ -3,8 +3,8 @@
   "private": true,
   "description": "Keeply Blog — Hugo static site with Tailwind CSS styling aligned to keeply-website",
   "scripts": {
-    "css:build": "tailwindcss -i ./assets/css/input.css -o ./static/style.css --minify",
-    "css:watch": "tailwindcss -i ./assets/css/input.css -o ./static/style.css --watch",
+    "css:build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --minify",
+    "css:watch": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch",
     "dev": "hugo server -D",
     "build": "npm run css:build && hugo --gc --minify"
   },
