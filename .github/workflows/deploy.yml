@@ -4,6 +4,12 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  schedule:
+    # Daily rebuild at 01:00 UTC = 09:00 Asia/Taipei.
+    # Hugo skips posts whose `date` is in the future, so a post with
+    # `date: 2026-05-12T09:00:00+08:00` first appears in the build that
+    # runs on/after that timestamp — i.e. native scheduled publishing.
+    - cron: "0 1 * * *"
 
 permissions:
   contents: read

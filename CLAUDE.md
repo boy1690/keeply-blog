@@ -24,6 +24,14 @@ Note：`Z:\keeply-blog\` 需要 `git config --global --add safe.directory '%(pre
 | `hugo --gc --minify` | Production build       |
 | `hugo config`        | Validate config syntax |
 
+## Publishing schedule
+
+- Each post's front-matter sets `date: YYYY-MM-DDT09:00:00+08:00` to its target publish moment
+- Cadence: 週二 / 週五 09:00 Asia/Taipei（Mode A — 穩健）
+- `.github/workflows/deploy.yml` runs `cron: "0 1 * * *"` (daily 01:00 UTC = 09:00 Asia/Taipei). Hugo skips posts whose `date` is in the future, so a future-dated post first appears in the build that runs on/after that timestamp — native scheduled publishing, no extra tooling
+- During Touch 4 DELIVER, fill `date` for every `final.{locale}.md` to the same target timestamp across locales (don't stagger by language)
+- Cron timing is best-effort — GitHub may delay the run by up to ~30 min on busy public-runner queues. Acceptable for blog publishing; not acceptable for hard deadlines
+
 ---
 
 ## BWF PROJECT_CONSTRAINTS
