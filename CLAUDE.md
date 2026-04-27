@@ -78,6 +78,7 @@ Note：`Z:\keeply-blog\` 需要 `git config --global --add safe.directory '%(pre
 **發布時必有**：en, zh-TW, zh-CN, ja
 **自動翻譯**：es, pt-BR, de, fr, it, ko, vi, th, id, tr, ar, ru, nl, pl, sv（共 19 語言）
 **特殊處理**：
+
 - 阿拉伯文（ar）需要 RTL 審查
 - 德文（de）+30% 字元寬度緩衝
 
