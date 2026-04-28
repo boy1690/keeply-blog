@@ -2,7 +2,7 @@
 title: "Gerenciamento de versões de arquivo: por que todo mundo acaba inventando o próprio sistema de nomes?"
 description: "Pastas compartilhadas, Dropbox e NAS não foram projetados para gerenciar o histórico de arquivos. Eles têm 4 lacunas estruturais — e cada uma empurra o trabalho de volta pra você."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Gerenciamento de versões de arquivo

@@ -2,7 +2,7 @@
 title: "Quản lý phiên bản tệp: vì sao ai dùng thư mục chia sẻ cũng tự đặt quy tắc tên?"
 description: "Thư mục chia sẻ, Dropbox, NAS chưa bao giờ được thiết kế để quản lý lịch sử tệp. Chúng có 4 lỗ hổng cấu trúc — và mỗi cái đẩy việc đó ngược lại cho bạn."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Quản lý phiên bản tệp

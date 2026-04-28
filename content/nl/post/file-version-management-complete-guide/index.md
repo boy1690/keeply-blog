@@ -2,7 +2,7 @@
 title: "Bestandsversiebeheer: waarom verzint iedereen zijn eigen naamgevingsregels?"
 description: "Gedeelde mappen, Dropbox en NAS-schijven zijn nooit ontworpen om bestandsgeschiedenis te beheren. Ze hebben 4 structurele gaten, en elk gat schuift het werk terug naar jou."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Bestandsversiebeheer

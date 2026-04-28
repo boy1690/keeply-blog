@@ -2,7 +2,7 @@
 title: "파일 버전 관리: 공유 폴더를 쓰는 사람마다 자기 명명 규칙을 만드는 이유"
 description: "공유 폴더, Dropbox, NAS는 파일 이력을 관리하기 위해 설계된 도구가 아니에요. 4가지 구조적 결함이 있고, 그 결함마다 도구가 해야 할 일을 당신에게 떠넘겨요."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - 파일 버전 관리

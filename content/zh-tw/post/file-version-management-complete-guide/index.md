@@ -2,7 +2,7 @@
 title: "檔案版本管理：為什麼每個用過共用資料夾的人，都會發明一套命名規則？"
 description: "共用資料夾、Dropbox、NAS 這些工具，本來就不是設計來管檔案歷史的。它們有 4 個設計缺口，每個都把工具該做的事推給你。"
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - 檔案版本管理

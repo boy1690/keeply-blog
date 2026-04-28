@@ -2,7 +2,7 @@
 title: "Dateiversionsverwaltung: Warum jeder sein Namensschema erfindet"
 description: "Gemeinsame Ordner, Dropbox und NAS-Laufwerke wurden nie dafür gebaut, Dateiversionen zu verwalten. Sie haben 4 Konstruktionslücken — und jede schiebt die Arbeit zurück auf dich."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Dateiversionsverwaltung

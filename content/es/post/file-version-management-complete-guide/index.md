@@ -2,7 +2,7 @@
 title: "Gestión de versiones de archivos: ¿por qué todos inventamos nuestro propio esquema?"
 description: "Las carpetas compartidas, Dropbox y el NAS no fueron diseñados para gestionar el historial de archivos. Tienen 4 vacíos estructurales, y cada uno te devuelve el trabajo a ti."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Gestión de versiones de archivos

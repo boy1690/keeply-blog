@@ -2,7 +2,7 @@
 title: "Manajemen versi berkas: kenapa semua pengguna folder bersama menciptakan aturan penamaan sendiri?"
 description: "Folder bersama, Dropbox, dan NAS memang tidak dirancang untuk mengelola riwayat berkas. Ada 4 celah struktural di sana, dan setiap celah mendorong pekerjaan itu kembali ke tanganmu."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Manajemen versi berkas

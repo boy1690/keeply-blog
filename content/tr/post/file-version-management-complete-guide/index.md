@@ -2,7 +2,7 @@
 title: "Dosya sürüm yönetimi: herkes neden kendi adlandırma kuralını icat eder?"
 description: "Paylaşımlı klasörler, Dropbox ve NAS sürücüleri dosya geçmişini yönetmek için tasarlanmadı. 4 yapısal boşlukları var ve her biri bu işi sana bırakıyor."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Dosya sürüm yönetimi

@@ -2,7 +2,7 @@
 title: "Gestione delle versioni dei file: perché lo inventiamo tutti da soli"
 description: "Cartelle condivise, Dropbox e NAS non sono stati progettati per gestire la cronologia dei file. Hanno 4 lacune strutturali, e ognuna scarica il lavoro su di te."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Gestione delle versioni dei file

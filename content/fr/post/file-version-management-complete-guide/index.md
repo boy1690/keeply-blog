@@ -2,7 +2,7 @@
 title: "Gestion des versions de fichiers : pourquoi tu inventes toujours tes propres règles"
 description: "Les dossiers partagés, Dropbox et les NAS n'ont jamais été conçus pour gérer l'historique de tes fichiers. Ils ont 4 lacunes structurelles — et chacune te repousse le travail."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Gestion des versions de fichiers

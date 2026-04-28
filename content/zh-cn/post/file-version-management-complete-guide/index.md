@@ -2,7 +2,7 @@
 title: "文件版本管理：为什么每个用过共享文件夹的人，都会发明一套命名规则？"
 description: "共享文件夹、Dropbox、NAS 这些工具，本来就不是设计来管文件历史的。它们有 4 个设计缺口，每个都把工具该做的事推给你。"
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - 文件版本管理

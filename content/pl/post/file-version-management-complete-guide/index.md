@@ -2,7 +2,7 @@
 title: "Zarządzanie wersjami plików: dlaczego foldery współdzielone rodzą własne reguły nazewnictwa?"
 description: "Foldery współdzielone, Dropbox i dyski NAS nigdy nie były projektowane do zarządzania historią plików. Mają 4 luki konstrukcyjne — każda z nich przesuwa tę pracę z powrotem na ciebie."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - Zarządzanie wersjami plików

@@ -2,7 +2,7 @@
 title: "File version management: why we all invent our own naming schemes"
 description: "Shared folders, Dropbox, and NAS drives weren't designed to manage file history. They have 4 structural gaps, and each one pushes the work back onto you."
 slug: file-version-management-complete-guide
-date: 2026-05-05T09:00:00+08:00
+date: 2026-04-28T09:00:00+08:00
 draft: false
 categories:
   - File version management
