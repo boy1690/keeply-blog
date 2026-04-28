@@ -49,15 +49,11 @@ Sondern weil ohne diese Notlösung die Dateistruktur sofort **ein Chaos** wird. 
 
 Du willst die gestrige Version deiner Designdatei wiederhaben.
 
-Dropbox öffnen — alles zeigt den aktuellen Stand. Gestern existiert nicht.
+Dropbox oder Google Drive öffnen — alles zeigt den aktuellen Stand. Die Versionshistorie steckt drei Menüebenen tief. Wer nie danach gesucht hat, findet sie schlicht nicht.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox und Google Drive: Versionshistorie in beiden drei Menüebenen tief versteckt](image-2.svg)
 
-Google Drive öffnen — die Versionshistorie steckt drei Menüebenen tief. Wer nie danach gesucht hat, findet sie schlicht nicht.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Firmen-NAS öffnen — das `_v3_final.psd`, das da liegt, *ist* deine Versionshistorie.
+Firmen-NAS öffnen — die chaotischen Versionsnummern, die da liegen, *sind* deine Versionshistorie.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -185,4 +181,4 @@ Die Frage ist, ob dein Tool diese Aufgabe für dich übernimmt.**
 ---
 
 > Über den Autor: [Gründer Klarname], Gründer von Keeply.
-> [about](/about/) ｜ LinkedIn (Touch 4 ausfüllen) ｜ X (Touch 4 ausfüllen)
+> LinkedIn (Touch 4 ausfüllen) ｜ X (Touch 4 ausfüllen)

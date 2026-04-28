@@ -48,15 +48,11 @@ Non perché abbiano tutti il disturbo ossessivo-compulsivo. Perché se non lo fa
 
 Vuoi la versione di ieri di quel file di design.
 
-Apri Dropbox — c'è solo la versione più recente. Ieri non esiste.
+Apri Dropbox o Google Drive — c'è solo la versione più recente. La cronologia delle versioni è sepolta tre livelli di menu in profondità. Non lo sai, se nessuno te lo dice.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox e Google Drive: la cronologia delle versioni sepolta tre livelli di menu in profondità in entrambi](image-2.svg)
 
-Apri Google Drive — la cronologia delle versioni è sepolta tre livelli di menu in profondità. Non lo sai, se nessuno te lo dice.
-
-![Path to Google Drive version history — File → Dettagli → Attività → Cronologia versioni. Arrows on each step](image-3.svg)
-
-Apri il NAS aziendale — quel `_v3_final.psd` lì fermo *è* la tua cronologia versioni.
+Apri il NAS aziendale — quei numeri di versione caotica che ci sono lì *sono* la tua cronologia versioni.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -172,4 +168,4 @@ E se sei arrivato fino a qui, probabilmente sai già la risposta. Non sei tu. È
 ---
 
 > Sull'autore: [Nome Reale Fondatore], fondatore di Keeply.
-> [about](/about/) ｜ LinkedIn (da completare al Touch 4) ｜ X (da completare al Touch 4)
+> LinkedIn (da completare al Touch 4) ｜ X (da completare al Touch 4)

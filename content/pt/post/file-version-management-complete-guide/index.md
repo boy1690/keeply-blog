@@ -49,15 +49,11 @@ Não é porque as três pessoas são perfeccionistas obsessivas.
 
 Você quer a versão de ontem daquele arquivo de design.
 
-Abre o Dropbox — tudo está na versão mais recente. Ontem simplesmente não existe.
+Abre o Dropbox ou o Google Drive — tudo está na versão mais recente. O histórico de versões está três menus abaixo. Você não sabe, a não ser que alguém te conte.
 
-![Print da interface do Dropbox. Marcado onde fica o histórico de versões — geralmente o terceiro item no menu do botão ](image-2.svg)
+![Dropbox e Google Drive: histórico de versões escondido três menus abaixo nos dois](image-2.svg)
 
-Abre o Google Drive — o histórico de versões está três menus abaixo. Você não sabe, a não ser que alguém te conte.
-
-![Caminho para o histórico de versões no Google Drive — Arquivo → Detalhes → Atividade → Histórico de versões. Setas em ca](image-3.svg)
-
-Abre o NAS da empresa — aquele `_v3_final.psd` parado lá *é* o seu histórico de versões.
+Abre o NAS da empresa — aqueles números de versão bagunçados parados lá *são* o seu histórico de versões.
 
 ![Print de pasta no NAS. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` enfileirado](image-4.svg)
 
@@ -187,4 +183,4 @@ Que sua ferramenta faça esse trabalho por você.
 ---
 
 > Sobre o autor: [Nome Real do Fundador], fundador do Keeply.
-> [about](/about/) ｜ LinkedIn (preencher no Touch 4) ｜ X (preencher no Touch 4)
+> LinkedIn (preencher no Touch 4) ｜ X (preencher no Touch 4)

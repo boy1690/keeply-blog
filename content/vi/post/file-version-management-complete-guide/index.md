@@ -48,15 +48,11 @@ Không phải vì họ cầu kỳ thái quá. Mà vì nếu không làm vậy, *
 
 Bạn muốn tìm bản thiết kế của ngày hôm qua.
 
-Mở Dropbox — toàn bản mới nhất. Không có "hôm qua" ở đây.
+Mở Dropbox hoặc Google Drive — toàn bản mới nhất. Lịch sử phiên bản nằm sâu ba tầng menu. Không ai chỉ thì bạn không biết đường nào mà tìm.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox và Google Drive: lịch sử phiên bản ẩn sâu ba tầng menu ở cả hai](image-2.svg)
 
-Mở Google Drive — lịch sử phiên bản nằm sâu ba tầng menu. Không ai chỉ thì bạn không biết đường nào mà tìm.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Mở NAS công ty — cái file `_v3_final.psd` đang nằm đó *chính là* lịch sử phiên bản của bạn đấy.
+Mở NAS công ty — những con số phiên bản lộn xộn nằm đó *chính là* lịch sử phiên bản của bạn đấy.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -184,4 +180,4 @@ Mà là công cụ của bạn có làm thay cho bạn hay không.**
 ---
 
 > Về tác giả: [Tên thật Founder], nhà sáng lập Keeply.
-> [about](/about/) ｜ LinkedIn (Touch 4 fill) ｜ X (Touch 4 fill)
+> LinkedIn (Touch 4 fill) ｜ X (Touch 4 fill)

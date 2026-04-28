@@ -49,15 +49,11 @@ og_image: cover.png
 
 Тебе нужна вчерашняя версия дизайн-файла.
 
-Открываешь Dropbox — везде только последние версии. Вчерашнего дня как будто не было.
+Открываешь Dropbox или Google Drive — везде только последние версии. История версий зарыта на три уровня вглубь в меню. Об этом не узнаешь, пока кто-нибудь не расскажет.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox и Google Drive: история версий спрятана на три уровня вглубь в обоих случаях](image-2.svg)
 
-Открываешь Google Drive — история версий зарыта на три уровня вглубь в меню. Об этом не узнаешь, пока кто-нибудь не расскажет.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Открываешь корпоративный сетевой диск — и вот тот самый `_v3_final.psd`, который там лежит, *и есть* вся твоя история версий.
+Открываешь корпоративный сетевой диск — и вот эти хаотичные номера версий, которые там лежат, *и есть* вся твоя история версий.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -185,4 +181,4 @@ og_image: cover.png
 ---
 
 > Об авторе: [Имя основателя], основатель Keeply.
-> [about](/about/) ｜ LinkedIn (Touch 4 fill) ｜ X (Touch 4 fill)
+> LinkedIn (Touch 4 fill) ｜ X (Touch 4 fill)

@@ -76,8 +76,8 @@
     </g>
   </g>
 
-  <!-- Arrow between (clean chevron shape, not stroke + marker) -->
-  <g transform="translate(575, 290)">
+  <!-- Arrow between (clean chevron shape, left-shifted per user feedback) -->
+  <g transform="translate(545, 290)">
     <path d="M0 30 L40 30 L40 18 L72 38 L40 58 L40 46 L0 46 Z"
           fill="url(#g-amber)" filter="url(#shadow)"/>
   </g>

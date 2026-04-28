@@ -48,15 +48,11 @@ Not because they all have OCD. Because if you don't do this, **your files turn i
 
 You want yesterday's version of that design file.
 
-Open Dropbox — everything's the latest. There's no yesterday.
+Open Dropbox or Google Drive — everything's the latest. Version history is hidden three menus deep. You wouldn't know unless someone told you.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox and Google Drive: version history hidden three menus deep in both](image-2.svg)
 
-Open Google Drive — version history's three menus deep. You don't know unless someone tells you.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Open the company NAS — that `_v3_final.psd` sitting there *is* your version history.
+Open the company NAS — those messy version numbers up there are your version history.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -184,4 +180,4 @@ It's whether your tool can do that job for you.**
 ---
 
 > About the author: Ting-Wei Tsao, founder of Keeply.
-> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)
+> [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

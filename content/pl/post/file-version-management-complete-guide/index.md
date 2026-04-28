@@ -48,15 +48,11 @@ Nie dlatego, że mają obsesję porządku. Dlatego, że jeśli tego nie zrobią,
 
 Szukasz wczorajszej wersji pliku projektu.
 
-Otwierasz Dropboxa — wszystko jest najnowsze. Wczorajszej wersji po prostu nie ma.
+Otwierasz Dropboxa lub Google Drive — wszystko jest najnowsze. Historia wersji jest trzy poziomy menu w głąb. Nie wiedziałbyś, gdyby ktoś ci nie powiedział.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox i Google Drive: historia wersji ukryta trzy poziomy menu w głąb w obu przypadkach](image-2.svg)
 
-Otwierasz Google Drive — historia wersji jest trzy poziomy menu w głąb. Nie wiedziałbyś, gdyby ktoś ci nie powiedział.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Otwierasz firmowy NAS — ten `_v3_final.psd` leżący w folderze *jest* twoją historią wersji.
+Otwierasz firmowy NAS — te chaotyczne numery wersji tam leżące *są* twoją historią wersji.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -184,4 +180,4 @@ Brzmi: czy twoje narzędzie wykonuje tę pracę za ciebie?**
 ---
 
 > O autorze: [prawdziwe imię i nazwisko założyciela], założyciel Keeply.
-> [about](/about/) ｜ LinkedIn (uzupełnić w Touch 4) ｜ X (uzupełnić w Touch 4)
+> LinkedIn (uzupełnić w Touch 4) ｜ X (uzupełnić w Touch 4)

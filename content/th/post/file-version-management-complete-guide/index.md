@@ -48,15 +48,11 @@ og_image: cover.png
 
 คุณอยากหาไฟล์ออกแบบเวอร์ชันเมื่อวาน
 
-เปิด Dropbox ขึ้นมา ทุกอย่างเป็นไฟล์ล่าสุด ไม่มีเวอร์ชันเมื่อวานเลย
+เปิด Dropbox หรือ Google Drive ขึ้นมา ทุกอย่างเป็นไฟล์ล่าสุด ประวัติเวอร์ชันซ่อนอยู่ในเมนูชั้นที่สาม ถ้าไม่มีใครบอกก็ไม่มีทางรู้
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox และ Google Drive: ประวัติเวอร์ชันซ่อนอยู่ในเมนูชั้นที่สามในทั้งสองบริการ](image-2.svg)
 
-เปิด Google Drive ขึ้นมา ประวัติเวอร์ชันซ่อนอยู่ในเมนูชั้นที่สาม ถ้าไม่มีใครบอกก็ไม่มีทางรู้
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-เปิด NAS ของบริษัท ไฟล์ `_v3_final.psd` ที่นั่งอยู่ตรงนั้น *คือ* ประวัติเวอร์ชันของคุณนั่นแหละ
+เปิด NAS ของบริษัท ตัวเลขเวอร์ชันที่ยุ่งเหยิงวางอยู่ตรงนั้น *คือ* ประวัติเวอร์ชันของคุณนั่นแหละ
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -169,4 +165,4 @@ og_image: cover.png
 ---
 
 > เกี่ยวกับผู้เขียน: [ชื่อจริงผู้ก่อตั้ง], ผู้ก่อตั้ง Keeply
-> [about](/about/) ｜ LinkedIn (Touch 4 fill) ｜ X (Touch 4 fill)
+> LinkedIn (Touch 4 fill) ｜ X (Touch 4 fill)

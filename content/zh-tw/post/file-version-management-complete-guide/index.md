@@ -49,15 +49,11 @@ B 小姐在律師事務所當助理。她的硬碟有 `合約_v7_客戶版_2025-
 
 你想找昨天那版設計檔。
 
-打開 Dropbox，全部是最新檔案，根本就沒有昨天的版本。
+打開 Dropbox 或 Google Drive，全部是最新檔案。版本歷史藏在第三層選單，不講真的不知道。
 
-![Dropbox 介面截圖。標出 version history 入口——通常是檔案右鍵第三個選項。標題：「藏起來的版本歷史」](image-2.svg)
+![Dropbox 與 Google Drive：版本歷史都藏在 3 層選單之外](image-2.svg)
 
-打開 Google Drive，版本歷史藏在第三層選單，不講真的不知道。
-
-![Google Drive 開啟版本紀錄的選單路徑——檔案 → 詳細資訊 → 活動 → 版本紀錄。每一步畫箭頭](image-3.svg)
-
-打開公司 NAS，上面那個 `_v3_final.psd` 就是你的版本歷史。
+打開公司 NAS，上面那些雜亂的編號就是你的版本歷史。
 
 ![NAS 資料夾截圖。並列 `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd`。下面小字註：「這就是人工版本歷史」](image-4.svg)
 
@@ -185,5 +181,5 @@ B 小姐在律師事務所當助理。她的硬碟有 `合約_v7_客戶版_2025-
 
 ---
 
-> 關於作者：Ting-Wei Tsao（曹庭瑋），Keeply 創辦人。
-> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)
+> 關於作者：Ting-Wei Tsao，Keeply 創辦人。
+> [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

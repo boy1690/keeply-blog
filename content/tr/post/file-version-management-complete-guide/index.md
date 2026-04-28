@@ -48,15 +48,11 @@ OCD'li oldukları için değil. Çünkü bunu yapmazsan **dosyaların bir rezale
 
 Dünkü tasarım dosyasının eski halini arıyorsun.
 
-Dropbox'ı açıyorsun — her şey en son haliyle duruyor. Dünden kalma bir sürüm yok.
+Dropbox'ı veya Google Drive'ı açıyorsun — her şey en son haliyle duruyor. Sürüm geçmişi üç menü derinliğinde. Biri sana söylemediyse bulamıyorsun.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox ve Google Drive: sürüm geçmişi her ikisinde de üç menü derinliğinde gizli](image-2.svg)
 
-Google Drive'ı açıyorsun — sürüm geçmişi üç menü derinliğinde. Biri sana söylemediyse bulamıyorsun.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Şirket NAS'ını açıyorsun — orada duran `_v3_final.psd` dosyası *zaten* senin sürüm geçmişin.
+Şirket NAS'ını açıyorsun — orada duran o karmaşık sürüm numaraları *zaten* senin sürüm geçmişin.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -185,4 +181,4 @@ Kullandığın aracın bu işi senin yerine yapıp yapmadığı.**
 ---
 
 > Yazar hakkında: [Kurucu Gerçek Adı], Keeply kurucusu.
-> [about](/about/) ｜ LinkedIn (Touch 4 doldur) ｜ X (Touch 4 doldur)
+> LinkedIn (Touch 4 doldur) ｜ X (Touch 4 doldur)

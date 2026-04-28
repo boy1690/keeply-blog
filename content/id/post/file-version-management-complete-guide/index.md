@@ -48,15 +48,11 @@ Bukan karena mereka semua perfeksionis. Karena kalau tidak begitu, **berkas-berk
 
 Kamu ingin menemukan versi kemarin dari berkas desain itu.
 
-Buka Dropbox — semuanya versi terbaru. Tidak ada kemarin.
+Buka Dropbox atau Google Drive — semuanya versi terbaru. Riwayat versi terkubur tiga lapis menu. Kamu tidak akan tahu kalau tidak ada yang kasih tahu.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox dan Google Drive: riwayat versi tersembunyi tiga lapis menu di keduanya](image-2.svg)
 
-Buka Google Drive — riwayat versi terkubur tiga lapis menu. Kamu tidak akan tahu kalau tidak ada yang kasih tahu.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Buka NAS kantor — `_v3_final.psd` yang tergeletak di sana *itu sendiri* adalah riwayat versimu.
+Buka NAS kantor — deretan nomor versi yang berantakan di sana *itulah* riwayat versimu.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -184,4 +180,4 @@ Pertanyaannya adalah: apakah alatmu mengerjakan tugas itu untukmu?**
 ---
 
 > Tentang penulis: [Nama Asli Pendiri], pendiri Keeply.
-> [about](/about/) ｜ LinkedIn (isi di Touch 4) ｜ X (isi di Touch 4)
+> LinkedIn (isi di Touch 4) ｜ X (isi di Touch 4)

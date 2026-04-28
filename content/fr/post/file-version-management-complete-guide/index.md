@@ -48,15 +48,11 @@ Pas parce qu'elles ont toutes une obsession du contrôle. Mais parce que si tu n
 
 Tu veux retrouver la version d'hier de ce fichier de design.
 
-Tu ouvres Dropbox — tout est à jour. Il n'y a pas d'hier.
+Tu ouvres Dropbox ou Google Drive — tout est à jour. L'historique des versions est enfoui trois menus plus loin. Tu ne le saurais pas si personne ne te l'avait dit.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox et Google Drive : l'historique des versions enfoui trois menus plus loin dans les deux cas](image-2.svg)
 
-Tu ouvres Google Drive — l'historique des versions est enfoui trois menus plus loin. Tu ne le saurais pas si personne ne te l'avait dit.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Tu ouvres le NAS de l'entreprise — ce `_v3_final.psd` qui traîne là, *c'est* ton historique de versions.
+Tu ouvres le NAS de l'entreprise — ces numéros de version en pagaille qui traînent là, *c'est* ton historique de versions.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -186,4 +182,4 @@ Que ton outil fasse ce travail à ta place.
 ---
 
 > À propos de l'auteur : Ting-Wei Tsao, fondateur de Keeply.
-> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)
+> [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

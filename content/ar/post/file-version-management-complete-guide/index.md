@@ -50,15 +50,11 @@ og_image: cover.png
 
 تريد نسخة الأمس من ملف التصميم.
 
-تفتح Dropbox — كل شيء هو الأحدث. لا يوجد "أمس".
+تفتح Dropbox أو Google Drive — كل شيء هو الأحدث. تاريخ النسخ مدفون في ثلاث قوائم متداخلة. لن تعرف بوجوده ما لم يخبرك أحد.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox وGoogle Drive: تاريخ النسخ مخفي في عمق ثلاث قوائم في كليهما](image-2.svg)
 
-تفتح Google Drive — تاريخ النسخ مدفون في ثلاث قوائم متداخلة. لن تعرف بوجوده ما لم يخبرك أحد.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-تفتح NAS الخاص بشركتك — ذلك الملف `_v3_final.psd` الجالس هناك *هو* تاريخ نسخك.
+تفتح NAS الخاص بشركتك — تلك الأرقام الفوضوية المتراكمة هناك *هي* تاريخ نسخك.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -187,4 +183,4 @@ og_image: cover.png
 ---
 
 > عن الكاتب: Ting-Wei Tsao، مؤسس Keeply.
-> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)
+> [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

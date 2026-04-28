@@ -48,15 +48,11 @@ Niet omdat ze allemaal te pietluttig zijn. Maar omdat als je het niet zo doet, *
 
 Je wilt de versie van gisteren van dat ontwerpbestand terug.
 
-Open Dropbox — alles toont de nieuwste versie. Gisteren bestaat niet.
+Open Dropbox of Google Drive — alles toont de nieuwste versie. Versiegeschiedenis zit drie menu's diep. Je weet het pas als iemand het je vertelt.
 
-![Dropbox UI screenshot. Mark where version history is — usually third item in the right-click menu, invisible until exp](image-2.svg)
+![Dropbox en Google Drive: versiegeschiedenis drie menu's diep verstopt in beide](image-2.svg)
 
-Open Google Drive — versiegeschiedenis zit drie menu's diep. Je weet het pas als iemand het je vertelt.
-
-![Path to Google Drive version history — File → Details → Activity → Version log. Arrows on each step](image-3.svg)
-
-Open de NAS van je bedrijf — dat `_v3_final.psd` dat er staat *is* je versiegeschiedenis.
+Open de NAS van je bedrijf — die rommelige versienummers die daar staan *zijn* je versiegeschiedenis.
 
 ![NAS folder screenshot. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` lined up. C](image-4.svg)
 
@@ -183,4 +179,4 @@ De vraag is of jouw tool dat werk voor je doet.**
 ---
 
 > Over de auteur: Ting-Wei Tsao, oprichter van Keeply.
-> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)
+> [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

@@ -48,15 +48,11 @@ No porque todos tengan TOC. Sino porque si no lo hacen, **los archivos se convie
 
 Quieres la versión de ayer de ese archivo de diseño.
 
-Abres Dropbox — todo es la versión más reciente. No hay un "ayer".
+Abres Dropbox o Google Drive — todo es la versión más reciente. El historial de versiones está a tres menús de profundidad. No lo sabes hasta que alguien te lo dice.
 
-![Captura de pantalla de la interfaz de Dropbox. Señala dónde está el historial de versiones — normalmente el tercer ele](image-2.svg)
+![Dropbox y Google Drive: el historial de versiones oculto tres menús en profundidad en ambos](image-2.svg)
 
-Abres Google Drive — el historial de versiones está a tres menús de profundidad. No lo sabes hasta que alguien te lo dice.
-
-![Ruta para acceder al historial de versiones en Google Drive — Archivo → Detalles → Actividad → Registro de versiones. Fl](image-3.svg)
-
-Abres el NAS de la empresa — ese `_v3_final.psd` que está ahí *es* tu historial de versiones.
+Abres el NAS de la empresa — esos números de versión desordenados que hay ahí *son* tu historial de versiones.
 
 ![Captura de carpeta en NAS. `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` en fila](image-4.svg)
 
@@ -184,4 +180,4 @@ Es si tu herramienta puede hacer ese trabajo por ti.**
 ---
 
 > Sobre el autor: [Nombre real del fundador], fundador de Keeply.
-> [about](/about/) ｜ LinkedIn (Touch 4 completar) ｜ X (Touch 4 completar)
+> LinkedIn (Touch 4 completar) ｜ X (Touch 4 completar)

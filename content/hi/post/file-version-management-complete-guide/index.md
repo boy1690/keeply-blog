@@ -49,15 +49,11 @@ og_image: cover.png
 
 आप कल वाला डिज़ाइन फ़ाइल का वर्शन ढूंढना चाहते हैं।
 
-Dropbox खोलते हैं — सब कुछ लेटेस्ट है। कल का कोई वर्शन है ही नहीं।
+Dropbox या Google Drive खोलते हैं — सब कुछ लेटेस्ट है। वर्शन हिस्ट्री तीन मेनू की गहराई में छुपी है। कोई बताए तो पता चले।
 
-![Dropbox UI का स्क्रीनशॉट। version history कहाँ है, यह दिखाएं — आमतौर पर राइट-क्लिक मेनू में तीसरा ऑप्शन, जब तक expand ](image-2.svg)
+![Dropbox और Google Drive: दोनों में वर्शन हिस्ट्री तीन मेनू की गहराई में छुपी है](image-2.svg)
 
-Google Drive खोलते हैं — वर्शन हिस्ट्री तीन मेनू की गहराई में है। कोई बताए तो पता चले।
-
-![Google Drive में वर्शन हिस्ट्री तक पहुंचने का रास्ता — File → Details → Activity → Version log। हर कदम पर तीर](image-3.svg)
-
-कंपनी NAS खोलते हैं — वहाँ पड़ा `_v3_final.psd` ही आपकी वर्शन हिस्ट्री है।
+कंपनी NAS खोलते हैं — वहाँ पड़े वे अव्यवस्थित नंबर ही आपकी वर्शन हिस्ट्री हैं।
 
 ![NAS फ़ोल्डर का स्क्रीनशॉट। `_v2.psd` / `_v3.psd` / `_v3_final.psd` / `_v3_final_real.psd` / `_v3_finalfinal.psd` एक लाइन](image-4.svg)
 
@@ -186,4 +182,4 @@ Google Drive खोलते हैं — वर्शन हिस्ट्र
 ---
 
 > About the author: Ting-Wei Tsao, founder of Keeply.
-> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)
+> [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)
