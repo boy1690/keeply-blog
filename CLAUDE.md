@@ -46,6 +46,7 @@ Note：`Z:\keeply-blog\` 需要 `git config --global --add safe.directory '%(pre
 - **P0.5** 客戶姓名/引言：必須能在 `specs/{slug}/sources.md` 追到具體人+日期+同意紀錄，或用「【合成範例】」前綴明確標記。未經書面同意禁用真實姓名。
 - **P0.6** AI-tell phrases 零命中（對照 `~/.claude/bwf/traps.md`）。
 - **P0.7** 原文用英文。文化中立——無美式慣用語、運動比喻、流行文化引用。
+- **P0.8** 禁宣稱未做過的研究 / 訪談 / 實測。E-E-A-T 的 Experience 訊號只能來自 (a) 創辦人真實親身經歷，可由作者具名負責；(b) 可追到外部 URL 的公開來源（學術論文、媒體報導、論壇討論串、官方 SDK 文件）。禁止「我們實測了」「我訪問了 N 位 X」「根據內部統計」等無外部佐證的句式。
 
 ## P0 — Hugo / Infra 硬規則（承接 Phase 1）
 
@@ -68,6 +69,9 @@ Note：`Z:\keeply-blog\` 需要 `git config --global --add safe.directory '%(pre
 - **P1.10** Hugo front-matter 必有：title、description、date、tags、draft、primary_keyword、locales。
 - **P1.11** SEO 標題規則：primary_keyword 出現在標題前半（zh 前 3-5 字；en 前 30 char）；標題含具體數字或 hook；長度 zh 28-35 全形字、en 50-60 char。寫完後做「雙版本檢查」：一版為 voice 寫、一版為 SEO 寫，合併較好部分。
 - **P1.12** 引用格式：每個統計數字 inline markdown link 到原始來源；來源優先序：學術/大型機構 > 大廠公開調查 > 媒體二手（後者要再追到原始）。所有引用同步登錄 `specs/{slug}/sources.md`。
+- **P1.13** 每篇文末強制帶作者卡：真名（或一致 pen name）+ Keeply 角色 + 連到 about / LinkedIn / 創辦人公開頁。E-E-A-T Expertise 訊號透明的代價是放棄匿名 PR 寫作的選項——這是有意識的取捨。
+- **P1.14** 每篇至少 1 處 admit limitation：「Keeply 不解決 X」「對 Y 場景 Keeply 不是最佳選擇」。Trustworthiness 訊號 + P0.3 競品承認規則的反向延伸。寫在「For when Keeply isn't the right tool」或「Limitations」小節，明白寫進文章本體，不是腳註。
+- **P1.15** 每篇 `intent.md` 必須宣告 `pillar` / `cluster` / `standalone` 角色 + 對應 pillar slug（若為 cluster）。對應 `specs/_roadmap/2026-q2-content-queue.md`。Cluster 在 Touch 4 DELIVER 必須含 ≥1 in-body link 連回 pillar；pillar 必須含 ≥3 cluster 連結。
 - Prefer Hugo built-in features over custom code
 - Content in markdown only, no HTML templates unless necessary
 
@@ -113,3 +117,160 @@ keeply-blog/
 v0.1 最小可跑版。已實作：T1 Pillar 模板、4 個 GATE、TRAP 列表、hooks/titles/ctas library、`/blg` slash command。
 
 未實作（v0.2+）：T2-T6 模板、Python lint 腳本、LoopGuard 自動化、feedforward.xml、learnings.md 彙整 job、`specs/` 同步到 `Z:\keeply-blog\` 自動化。
+
+---
+
+## Deploy Pipeline SOP
+
+> v0.1 新增（2026-04-28）— 從既有 working pipeline reverse-engineer 出的文件化 SOP。本章節**描述**早已運作的 deploy 鏈條（spec → keeply-blog content/ sync → push → GitHub Actions Hugo build → GitHub Pages → blog.keeply.work），**不引入**新依賴。
+>
+> **2026-04-28 verification baseline: 4 articles × 4 locales = 16/16 URL HTTP 200 ✅** (hidden-cost-shared-folders / install-keeply-windows-mac / thesis-single-point-of-failure / autocad-wrong-version-crew × zh-tw/en/zh-cn/ja).
+>
+> 本 SOP 為 DELIVER 觸點（Touch 4）step 9-12 的展開。CI/CD 自動化 + 19-locale parity + retraction protocol 為 v0.2_deferred。
+
+### a. Spec → Content sync 步驟（路徑映射）
+
+**權威方向**：spec 為內容權威，keeply-blog content/ 向 spec 對齊（**Alignment Direction**，不可反向）。
+
+**路徑映射規則**（4 必要 locale 同步全上線）：
+
+| Spec source（authoritative）            | keeply-blog content target                            | Hugo URL                                       |
+| --------------------------------------- | ----------------------------------------------------- | ---------------------------------------------- |
+| `apps/blog/specs/{slug}/final.zh-TW.md` | `../keeply-blog/content/zh-tw/post/{slug}/index.md`   | `https://blog.keeply.work/zh-tw/post/{slug}/`  |
+| `apps/blog/specs/{slug}/final.en.md`    | `../keeply-blog/content/english/post/{slug}/index.md` | `https://blog.keeply.work/en/post/{slug}/`     |
+| `apps/blog/specs/{slug}/final.zh-CN.md` | `../keeply-blog/content/zh-cn/post/{slug}/index.md`   | `https://blog.keeply.work/zh-cn/post/{slug}/`  |
+| `apps/blog/specs/{slug}/final.ja.md`    | `../keeply-blog/content/ja/post/{slug}/index.md`      | `https://blog.keeply.work/ja/post/{slug}/`     |
+
+**注意 quirk**：
+
+- `en` locale 的 contentDir 為 `content/english/`（**非** `content/en/`），但 URL prefix 為 `/en/`（hugo.toml `defaultContentLanguageInSubdir = true` + `[languages.en] contentDir = "content/english"`）。其他 3 個 locale 的目錄名與 URL prefix 一致（zh-tw / zh-cn / ja）。
+- 每個 post 為 Hugo **page bundle**：`{slug}/index.md` + `{slug}/cover.svg` + `{slug}/cover.png` 三檔同目錄。
+- 內容 byte-identical：`final.{locale}.md` 文章本體 = `index.md` 文章本體（轉檔時只動 frontmatter，**不改文字**）。
+
+### b. Hugo frontmatter 補強規則（spec 缺欄位回填 spec，不雙寫）
+
+`final.{locale}.md` 與 Hugo `index.md` 的 frontmatter 差異欄位（Hugo 必要、BWF spec 可能未含）：
+
+| Hugo 必要欄位         | 來源                                                          |
+| --------------------- | ------------------------------------------------------------- |
+| `title`               | spec frontmatter（必有，BWF GATE-2）                          |
+| `description`         | spec frontmatter（必有，BWF P1.10）                           |
+| `slug`                | spec 目錄名（kebab-case）                                     |
+| `date`                | spec frontmatter（DELIVER 時填寫，**4 locale 同 timestamp**） |
+| `image: cover.svg`    | DELIVER step 8 cover 必有                                     |
+| `og_image: cover.png` | DELIVER step 8 cover 必有                                     |
+| `categories`          | spec frontmatter（locale-specific 翻譯）                      |
+| `tags`                | spec frontmatter（locale-specific 翻譯）                      |
+| `draft`（可選）       | 預設 false；spec 未指定即 published                           |
+
+**補強規則（重要）**：
+
+1. **Spec 缺欄位 → 回填 spec**（authoritative direction）。**禁止**只在 keeply-blog `index.md` 加欄位而不同步回 `apps/blog/specs/{slug}/final.{locale}.md`。
+2. **不雙寫**：avoid 在兩處各自維護一套 frontmatter；轉檔（spec → content）為單向 sync，spec 為唯一 source of truth。
+3. **4 locale frontmatter 必齊**：4 個 `final.{locale}.md` 同時更新後再一次 sync 到 4 個 content target；不允許單 locale 偷跑。
+
+### c. Hugo build 本機驗證
+
+**前置**：在 `keeply-blog/` 目錄（`D:/tools/doing/keeply-blog/`）執行；hugo.toml `baseURL = "https://blog.keeply.work/"`、`defaultContentLanguageInSubdir = true`、theme `hugo-theme-stack`（git submodule，未 vendored）。
+
+**命令**：
+
+```bash
+cd D:/tools/doing/keeply-blog/
+hugo --gc --minify
+```
+
+**Exit 條件**：必須 exit 0（DELIVER step 10 hard rule）。
+
+**4 必要 locale 完整性檢查**（build 後本機驗證 public/ 產出齊全）：
+
+```bash
+# build 完成後：
+test -f public/zh-tw/post/{slug}/index.html && \
+test -f public/en/post/{slug}/index.html && \
+test -f public/zh-cn/post/{slug}/index.html && \
+test -f public/ja/post/{slug}/index.html && \
+echo "4-locale local build OK" || echo "MISSING locale build"
+```
+
+任一 locale 缺檔 → halt，不要 push；先回頭檢查該 locale 的 content/ 子目錄是否齊備。
+
+### d. GitHub push + GitHub Actions deploy.yml 觸發鏈條
+
+**鏈條描述**（reverse-engineered from `D:/tools/doing/keeply-blog/.github/workflows/deploy.yml`）：
+
+```text
+local hugo --gc --minify exit 0
+        │
+        ▼
+git commit (conventional commits + Co-Authored-By footer)
+        │
+        ▼
+git push origin main
+        │
+        ▼ (trigger: on.push.branches=["main"])
+GitHub Actions: Deploy Hugo site to Pages
+        │
+        ├─ build job (ubuntu-latest, HUGO_VERSION=0.160.1 extended)
+        │  ├─ Checkout (submodules: recursive — theme 拉齊)
+        │  ├─ Setup Node 20 + npm ci + npm run css:build (Tailwind)
+        │  ├─ Setup Pages (actions/configure-pages@v4)
+        │  ├─ hugo --gc --minify --baseURL "https://blog.keeply.work/"
+        │  └─ Upload artifact (./public)
+        │
+        ▼
+        deploy job (needs: build)
+        └─ actions/deploy-pages@v4 → environment: github-pages → live
+```
+
+**附加 trigger**：
+
+- `workflow_dispatch`（手動）：用於不 push code 但要強制 rebuild 的場景。
+- `schedule: cron "0 1 * * *"`（每日 UTC 01:00 = Asia/Taipei 09:00）：native scheduled publishing。Hugo 跳過 `date` 在未來的 post，cron 跑到後該 post 才出現於 build。發文 cadence（週二 / 週五 09:00）依賴此 cron；GitHub 公共 runner 可能延遲 ~30 min，blog 發布可接受、硬截止場合不適用。
+
+**concurrency**：`group: "pages"` + `cancel-in-progress: false`（同時 push 多次不會互相 cancel，依序排隊）。
+
+**push 權限**：已在 user settings 解鎖；**但** sub-agent 預設 `sub_agent_git_capability=read_only`，sub-agent 不得自行 git push（必經使用者授權；參考 global policy `~/.claude/CLAUDE.md`「Every git push requires explicit user authorization」）。
+
+### e. 4×4=16 URL HTTP 200 完整性檢查 procedure
+
+**Trigger 時機**：deploy job 完成後（GitHub Actions 顯示綠勾）→ 等 GitHub Pages CDN propagation（通常 < 60 sec）→ 跑下列 curl 矩陣。
+
+**Canonical URL 結構**（trailing slash 必有）：
+
+```text
+https://blog.keeply.work/{locale}/post/{slug}/
+```
+
+其中 `{locale}` ∈ `{zh-tw, en, zh-cn, ja}`（4 必要 locale；其餘 15 自動翻譯 locale 為 v0.2_deferred）。
+
+**curl 模板**（單一 URL）：
+
+```bash
+curl -s -o /dev/null -w "%{http_code}" "https://blog.keeply.work/{locale}/post/{slug}/"
+```
+
+期望輸出：`200`。
+
+**4-locale × N-article 矩陣腳本**（bash）：
+
+```bash
+SLUGS=(hidden-cost-shared-folders install-keeply-windows-mac thesis-single-point-of-failure autocad-wrong-version-crew)
+LOCALES=(zh-tw en zh-cn ja)
+PASS=0; FAIL=0
+for slug in "${SLUGS[@]}"; do
+  for loc in "${LOCALES[@]}"; do
+    code=$(curl -s -o /dev/null -w "%{http_code}" "https://blog.keeply.work/${loc}/post/${slug}/")
+    if [ "$code" = "200" ]; then
+      echo "OK   ${loc}/${slug} → $code"; PASS=$((PASS+1))
+    else
+      echo "FAIL ${loc}/${slug} → $code"; FAIL=$((FAIL+1))
+    fi
+  done
+done
+echo "Result: ${PASS}/$((${#SLUGS[@]}*${#LOCALES[@]}))"
+```
+
+**Pass 條件**：4 articles × 4 locales = 16/16 為 200（baseline 2026-04-28 verified 全綠 ✅）。任一 URL 非 200 → halt，回頭檢查 content/ 該 locale 子目錄是否 push 進 main、Actions log 該次 build 是否該 locale build 出 `public/{locale}/post/{slug}/index.html`。
+
+**Baseline reference**：2026-04-28 verification baseline: 4 articles × 4 locales = 16/16 URL HTTP 200 ✅ (hidden-cost-shared-folders / install-keeply-windows-mac / thesis-single-point-of-failure / autocad-wrong-version-crew × zh-tw/en/zh-cn/ja). 後續發新文章須維持此標準，新文章新 slug 加入上述 `SLUGS` 陣列即可。
