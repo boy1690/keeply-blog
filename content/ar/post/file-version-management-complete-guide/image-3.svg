@@ -1,0 +1,94 @@
+<!-- Image 3: Google Drive 3-tier menu path - file → details → activity → version log -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none"
+     font-family="'Inter','Noto Sans TC',system-ui,sans-serif">
+  <defs>
+    <linearGradient id="g-indigo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#4338CA"/>
+    </linearGradient>
+    <linearGradient id="g-indigo-soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9C98FF"/><stop offset="1" stop-color="#6F6AF0"/>
+    </linearGradient>
+    <linearGradient id="g-amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB300"/><stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="g-paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F7FF"/><stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#4338CA" stroke-width="1" opacity="0.05"/>
+    </pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#312E81" flood-opacity="0.15"/></filter>
+    <marker id="arrow-i" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto">
+      <path d="M0 0 L14 7 L0 14 L4 7 Z" fill="#6F6AF0"/>
+    </marker>
+    <marker id="arrow-a" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto">
+      <path d="M0 0 L14 7 L0 14 L4 7 Z" fill="url(#g-amber)"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#g-paper)"/>
+  <rect width="1200" height="600" fill="url(#grid)"/>
+
+  <!-- Top label -->
+  <g transform="translate(60, 60)">
+    <text x="0" y="0" font-size="14" font-weight="800" fill="#312E81" letter-spacing="3">GOOGLE DRIVE — VERSION HISTORY PATH</text>
+  </g>
+
+  <!-- 4 step cards in a flow -->
+  <g font-family="system-ui,sans-serif">
+
+    <!-- Step 1: File -->
+    <g transform="translate(60, 220)" filter="url(#shadow)">
+      <rect width="220" height="160" rx="12" fill="#ffffff"/>
+      <rect width="220" height="50" rx="12" fill="url(#g-indigo-soft)"/>
+      <rect y="36" width="220" height="14" fill="url(#g-indigo-soft)"/>
+      <text x="20" y="32" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="2">STEP 1</text>
+      <text x="110" y="100" font-size="22" font-weight="700" fill="#312E81" text-anchor="middle">File</text>
+      <text x="110" y="130" font-size="13" font-weight="500" fill="#6F6AF0" opacity="0.7" text-anchor="middle">top menu bar</text>
+    </g>
+
+    <!-- Arrow 1 -->
+    <line x1="290" y1="300" x2="328" y2="300" stroke="#6F6AF0" stroke-width="3" marker-end="url(#arrow-i)"/>
+
+    <!-- Step 2: Details -->
+    <g transform="translate(340, 220)" filter="url(#shadow)">
+      <rect width="220" height="160" rx="12" fill="#ffffff"/>
+      <rect width="220" height="50" rx="12" fill="url(#g-indigo)"/>
+      <rect y="36" width="220" height="14" fill="url(#g-indigo)"/>
+      <text x="20" y="32" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="2">STEP 2</text>
+      <text x="110" y="100" font-size="22" font-weight="700" fill="#312E81" text-anchor="middle">Details</text>
+      <text x="110" y="130" font-size="13" font-weight="500" fill="#6F6AF0" opacity="0.7" text-anchor="middle">submenu</text>
+    </g>
+
+    <!-- Arrow 2 -->
+    <line x1="570" y1="300" x2="608" y2="300" stroke="#6F6AF0" stroke-width="3" marker-end="url(#arrow-i)"/>
+
+    <!-- Step 3: Activity -->
+    <g transform="translate(620, 220)" filter="url(#shadow)">
+      <rect width="220" height="160" rx="12" fill="#ffffff"/>
+      <rect width="220" height="50" rx="12" fill="url(#g-indigo)"/>
+      <rect y="36" width="220" height="14" fill="url(#g-indigo)"/>
+      <text x="20" y="32" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="2">STEP 3</text>
+      <text x="110" y="100" font-size="22" font-weight="700" fill="#312E81" text-anchor="middle">Activity</text>
+      <text x="110" y="130" font-size="13" font-weight="500" fill="#6F6AF0" opacity="0.7" text-anchor="middle">tab</text>
+    </g>
+
+    <!-- Arrow 3 (amber emphasis) -->
+    <line x1="850" y1="300" x2="888" y2="300" stroke="url(#g-amber)" stroke-width="3" marker-end="url(#arrow-a)"/>
+
+    <!-- Step 4: Version log (THE PRIZE, amber) -->
+    <g transform="translate(900, 220)" filter="url(#shadow)">
+      <rect width="240" height="160" rx="12" fill="#FFFBEB" stroke="url(#g-amber)" stroke-width="3"/>
+      <rect width="240" height="50" rx="12" fill="url(#g-amber)"/>
+      <rect y="36" width="240" height="14" fill="url(#g-amber)"/>
+      <text x="20" y="32" font-size="14" font-weight="800" fill="#ffffff" letter-spacing="2">STEP 4</text>
+      <text x="120" y="100" font-size="22" font-weight="800" fill="#312E81" text-anchor="middle">Version log</text>
+      <text x="120" y="130" font-size="13" font-weight="600" fill="#F59E0B" text-anchor="middle">finally — the menu</text>
+    </g>
+
+  </g>
+
+  <!-- Bottom caption -->
+  <text x="600" y="500" font-size="18" font-weight="700" fill="#312E81" text-anchor="middle">4 clicks deep · most people don't even know it's there</text>
+
+</svg>
