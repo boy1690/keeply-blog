@@ -37,7 +37,7 @@ Niet omdat ze allemaal te pietluttig zijn. Maar omdat als je het niet zo doet, *
 ## Inhoudsopgave
 
 1. [De "vorige versie"-knop heeft nooit bestaan](#reason-1)
-2. [De versiegeschiedenis van 30 dagen is een leugen](#reason-2)
+2. [De versiegeschiedenis van 30 dagen heeft voorwaarden](#reason-2)
 3. [Versiegeschiedenis vertelt je wánóér, niet waaróm](#reason-3)
 4. [Naamgevingsconventies schuiven het geheugen door naar mensen](#reason-4)
 5. [Wanneer Keeply niet het antwoord is](#limitations)
@@ -68,11 +68,11 @@ Dus kozen ze voor synchronisatie. **Ze laten je de tijdlijn van wijzigingen niet
 
 > In 2015 verloor UCSD-taalkundige promovendus Will Styler zijn scriptiemap. Hij had 7 verschillende back-upplannen. Elk enkel plan faalde. Hij schreef de post-mortem op voor toekomstige studenten. Slotzin: "Redundancy doesn't prevent stupidity." [Volledig verslag](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ Meer lezen: [Waarom je scriptie op één laptop een gok is die niemand je waarschuwt te nemen](/nl/post/thesis-single-point-of-failure/)
+→ Meer lezen: [Waarom je scriptie op één laptop een gok is die niemand je waarschuwt te nemen](/en/post/thesis-single-point-of-failure/)
 
 ---
 
-## 2. De versiegeschiedenis van 30 dagen is een leugen {#reason-2}
+## 2. De versiegeschiedenis van 30 dagen heeft voorwaarden {#reason-2}
 
 Goed. Je ontdekt dat Dropbox écht een versiegeschiedenis heeft. Opgelucht?
 
@@ -90,7 +90,7 @@ De grens van 30 dagen is geen technische beperking — het is een zakelijke keuz
 Het venster van 30 dagen is ontworpen voor "ik heb gisteren per ongeluk iets overschreven."
 Voor "mijn klant wil volgende week de pitch van vorig kwartaal terug" — **gebruik je het verkeerde gereedschap voor de klus**.
 
-→ Meer lezen: [De verborgen kosten van gedeelde mappen](/nl/post/hidden-cost-shared-folders/)
+→ Meer lezen: [De verborgen kosten van gedeelde mappen](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -152,7 +152,7 @@ Elk teamlid, elke keer dat ze opslaan, moet de regel onthouden + bereid zijn die
 Naamgevingsconventies onthouden is iets **wat een tool gewoon zou moeten doen**.
 Niet iets wat je op de discipline van elk individu afwentelt.
 
-→ Meer lezen: [Hoe het hele AutoCAD-team met de verkeerde versie werkte](/nl/post/autocad-wrong-version-crew/)
+→ Meer lezen: [Hoe het hele AutoCAD-team met de verkeerde versie werkte](/en/post/autocad-wrong-version-crew/)
 
 ---
 
@@ -182,5 +182,5 @@ De vraag is of jouw tool dat werk voor je doet.**
 
 ---
 
-> Over de auteur: [Naam oprichter], oprichter van Keeply.
-> [about](/about/) ｜ LinkedIn (Touch 4 invullen) ｜ X (Touch 4 invullen)
+> Over de auteur: Ting-Wei Tsao, oprichter van Keeply.
+> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

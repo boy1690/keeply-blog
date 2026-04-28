@@ -32,12 +32,12 @@ Not because they all have OCD. Because if you don't do this, **your files turn i
 
 ---
 
-**TL;DR**: Shared folders, Dropbox, and NAS drives **weren't designed to manage file history**. They have 4 structural gaps, and each one pushes the work back onto you. This article unpacks each one — and admits which Keeply solves and which it doesn't.
+> **TL;DR** —  Shared folders, Dropbox, and NAS drives **weren't designed to manage file history**. They have 4 structural gaps, and each one pushes the work back onto you. This article unpacks each one — and admits which Keeply solves and which it doesn't.
 
 ## Article map
 
 1. [The "previous version" button never existed](#reason-1)
-2. [The 30-day version history is a lie](#reason-2)
+2. [The 30-day version history has fine print](#reason-2)
 3. [Version history tells you when, not why](#reason-3)
 4. [Naming conventions push memory onto people](#reason-4)
 5. [When Keeply isn't the answer](#limitations)
@@ -73,7 +73,7 @@ So tools picked sync. **They don't show you the timeline of changes**.
 
 ---
 
-## 2. The 30-day version history is a lie {#reason-2}
+## 2. The 30-day version history has fine print {#reason-2}
 
 Good. You found out Dropbox actually has version history. Relief?
 
@@ -183,5 +183,5 @@ It's whether your tool can do that job for you.**
 
 ---
 
-> About the author: [Founder Real Name], founder of Keeply.
-> [about](/about/) ｜ LinkedIn (Touch 4 fill) ｜ X (Touch 4 fill)
+> About the author: Ting-Wei Tsao, founder of Keeply.
+> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

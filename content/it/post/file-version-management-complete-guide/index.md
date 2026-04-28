@@ -32,7 +32,7 @@ Non perché abbiano tutti il disturbo ossessivo-compulsivo. Perché se non lo fa
 
 ---
 
-**TL;DR**: Cartelle condivise, Dropbox e NAS **non sono stati progettati per gestire la cronologia dei file**. Hanno 4 lacune strutturali, e ognuna scarica il lavoro su di te. Questo articolo le smonta una per una — e ammette cosa risolve Keeply e cosa no.
+> **TL;DR** —  Cartelle condivise, Dropbox e NAS **non sono stati progettati per gestire la cronologia dei file**. Hanno 4 lacune strutturali, e ognuna scarica il lavoro su di te. Questo articolo le smonta una per una — e ammette cosa risolve Keeply e cosa no.
 
 ## Mappa dell'articolo
 
@@ -68,7 +68,7 @@ Quindi gli strumenti hanno scelto la sincronizzazione. **Non ti mostrano la sequ
 
 > Nel 2015, il dottorando in linguistica della UCSD Will Styler ha perso i file della sua tesi. Aveva 7 diversi piani di backup. Ognuno ha fallito. Ha scritto un post-mortem per i futuri studenti universitari. L'ultima riga: "Redundancy doesn't prevent stupidity" (la ridondanza non previene la stupidità). [Incidente completo](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ Approfondimento: [Perché tenere la tua tesi magistrale su un solo laptop è una scommessa che nessuno ti ha avvertito di fare](/it/post/thesis-single-point-of-failure/)
+→ Approfondimento: [Perché tenere la tua tesi magistrale su un solo laptop è una scommessa che nessuno ti ha avvertito di fare](/en/post/thesis-single-point-of-failure/)
 
 ---
 
@@ -88,7 +88,7 @@ Il limite di 30 giorni non è un vincolo tecnico — è una decisione di busines
 
 La finestra di 30 giorni è stata progettata per "ho accidentalmente sovrascritto il file di ieri". Per "il mio cliente vuole la proposta del trimestre scorso la prossima settimana" — **usare lo strumento sbagliato raramente ti dà quello che vuoi**.
 
-→ Approfondimento: [Il costo nascosto delle cartelle condivise](/it/post/hidden-cost-shared-folders/)
+→ Approfondimento: [Il costo nascosto delle cartelle condivise](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -143,7 +143,7 @@ Ogni membro del team, ad ogni salvataggio, deve ricordare + essere d'accordo + a
 
 Ricordare una convenzione di denominazione è qualcosa che **uno strumento dovrebbe fare da solo**. Non qualcosa da scaricare sulla disciplina di ogni singola persona.
 
-→ Approfondimento: [Quando il team AutoCAD ha caricato la versione sbagliata](/it/post/autocad-wrong-version-crew/)
+→ Approfondimento: [Quando il team AutoCAD ha caricato la versione sbagliata](/en/post/autocad-wrong-version-crew/)
 
 ---
 

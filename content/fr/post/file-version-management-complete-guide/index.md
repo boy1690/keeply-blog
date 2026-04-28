@@ -32,12 +32,12 @@ Pas parce qu'elles ont toutes une obsession du contrôle. Mais parce que si tu n
 
 ---
 
-**TL;DR** : Les dossiers partagés, Dropbox et les NAS **n'ont jamais été conçus pour gérer l'historique de tes fichiers**. Ils ont 4 lacunes structurelles, et chacune te repousse le travail. Cet article les démonte une par une — et reconnaît lesquelles Keeply résout, et lesquelles non.
+> **TL;DR** — Les dossiers partagés, Dropbox et les NAS **n'ont jamais été conçus pour gérer l'historique de tes fichiers**. Ils ont 4 lacunes structurelles, et chacune te repousse le travail. Cet article les démonte une par une — et reconnaît lesquelles Keeply résout, et lesquelles non.
 
 ## Plan de l'article
 
 1. [Le bouton « version précédente » n'a jamais existé](#reason-1)
-2. [L'historique sur 30 jours, c'est un mensonge](#reason-2)
+2. [L'historique sur 30 jours a des conditions](#reason-2)
 3. [L'historique dit quand, pas pourquoi](#reason-3)
 4. [Les conventions de nommage déversent la mémoire sur les gens](#reason-4)
 5. [Quand Keeply n'est pas la réponse](#limitations)
@@ -69,11 +69,11 @@ Alors les outils ont choisi la synchronisation. **Ils ne te montrent pas la chro
 
 > En 2015, Will Styler, doctorant en linguistique à l'UCSD, a perdu les fichiers de sa thèse. Il avait 7 plans de sauvegarde différents. Chacun a échoué. Il a documenté l'incident pour les futurs doctorants. Dernière ligne : « Redundancy doesn't prevent stupidity. » (La redondance ne protège pas de la bêtise.) [Incident complet](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ À lire aussi : [Pourquoi ta thèse sur un seul ordinateur, c'est un pari que personne ne t'a signalé](/fr/post/thesis-single-point-of-failure/)
+→ À lire aussi : [Pourquoi ta thèse sur un seul ordinateur, c'est un pari que personne ne t'a signalé](/en/post/thesis-single-point-of-failure/)
 
 ---
 
-## 2. L'historique sur 30 jours, c'est un mensonge {#reason-2}
+## 2. L'historique sur 30 jours a des conditions {#reason-2}
 
 Bien. Tu as découvert que Dropbox a vraiment un historique de versions. Soulagé ?
 
@@ -91,7 +91,7 @@ La limite à 30 jours n'est pas une contrainte technique — c'est un choix comm
 La fenêtre de 30 jours a été pensée pour « j'ai accidentellement écrasé le fichier d'hier ».
 Pour « mon client veut récupérer la proposition du trimestre dernier la semaine prochaine » — **utiliser le mauvais outil te donne rarement ce que tu veux**.
 
-→ À lire aussi : [Le coût caché des dossiers partagés](/fr/post/hidden-cost-shared-folders/)
+→ À lire aussi : [Le coût caché des dossiers partagés](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -153,7 +153,7 @@ Chaque membre de l'équipe, à chaque sauvegarde, doit se souvenir + avoir envie
 Se souvenir d'une convention de nommage, c'est quelque chose **qu'un outil devrait faire tout seul**.
 Pas quelque chose à déléguer à la discipline de chacun.
 
-→ À lire aussi : [Quand l'équipe AutoCAD a chargé la mauvaise version](/fr/post/autocad-wrong-version-crew/)
+→ À lire aussi : [Quand l'équipe AutoCAD a chargé la mauvaise version](/en/post/autocad-wrong-version-crew/)
 
 ---
 
@@ -185,5 +185,5 @@ Que ton outil fasse ce travail à ta place.
 
 ---
 
-> À propos de l'auteur : [Vrai nom du fondateur], fondateur de Keeply.
-> [about](/about/) ｜ LinkedIn (Touch 4 à compléter) ｜ X (Touch 4 à compléter)
+> À propos de l'auteur : Ting-Wei Tsao, fondateur de Keeply.
+> [about](/about/) ｜ [LinkedIn](https://www.linkedin.com/in/ting-wei-tsao-b57480152/)

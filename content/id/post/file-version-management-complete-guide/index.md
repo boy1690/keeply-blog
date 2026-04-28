@@ -32,7 +32,7 @@ Bukan karena mereka semua perfeksionis. Karena kalau tidak begitu, **berkas-berk
 
 ---
 
-**TL;DR**: Folder bersama, Dropbox, dan NAS **memang tidak dirancang untuk mengelola riwayat berkas**. Ada 4 celah struktural di sana, dan setiap celah mendorong pekerjaan itu kembali ke tanganmu. Artikel ini membongkar satu per satu — dan mengakui mana yang diselesaikan Keeply, mana yang tidak.
+> **TL;DR** —  Folder bersama, Dropbox, dan NAS **memang tidak dirancang untuk mengelola riwayat berkas**. Ada 4 celah struktural di sana, dan setiap celah mendorong pekerjaan itu kembali ke tanganmu. Artikel ini membongkar satu per satu — dan mengakui mana yang diselesaikan Keeply, mana yang tidak.
 
 ## Peta artikel
 
@@ -69,7 +69,7 @@ Jadi alat memilih sinkronisasi. **Mereka tidak menampilkan timeline perubahanmu*
 
 > Pada 2015, mahasiswa doktor linguistik UCSD, Will Styler, kehilangan berkas disertasinya. Dia punya 7 rencana backup yang berbeda. Semuanya gagal tanpa terkecuali. Dia menulis post-mortem untuk mahasiswa pascasarjana berikutnya. Kalimat penutupnya: "Redundancy doesn't prevent stupidity" (banyak backup tidak mencegah kebodohan). [Cerita lengkap](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ Lanjut baca: [Kenapa menyimpan skripsi di satu laptop adalah perjudian yang tidak ada yang peringatkan](/id/post/thesis-single-point-of-failure/)
+→ Lanjut baca: [Kenapa menyimpan skripsi di satu laptop adalah perjudian yang tidak ada yang peringatkan](/en/post/thesis-single-point-of-failure/)
 
 ---
 
@@ -91,7 +91,7 @@ Batas 30 hari bukan kendala teknis — ini keputusan bisnis. Riwayat versi dijad
 Window 30 hari dirancang untuk skenario "saya tidak sengaja menimpa berkas kemarin".
 Untuk skenario "klienku minta proposal kuartal lalu minggu depan" — **menggunakan alat yang salah jarang menghasilkan apa yang kamu mau**.
 
-→ Lanjut baca: [Biaya tersembunyi dari folder bersama](/id/post/hidden-cost-shared-folders/)
+→ Lanjut baca: [Biaya tersembunyi dari folder bersama](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -153,7 +153,7 @@ Setiap anggota tim, setiap kali menyimpan, harus ingat + mau + punya waktu untuk
 Mengingat aturan penamaan adalah hal yang **seharusnya dilakukan oleh alat itu sendiri**.
 Bukan didorong ke disiplin setiap individu.
 
-→ Lanjut baca: [Saat tim AutoCAD memuat versi yang salah](/id/post/autocad-wrong-version-crew/)
+→ Lanjut baca: [Saat tim AutoCAD memuat versi yang salah](/en/post/autocad-wrong-version-crew/)
 
 ---
 

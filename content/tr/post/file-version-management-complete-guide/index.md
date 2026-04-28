@@ -37,7 +37,7 @@ OCD'li oldukları için değil. Çünkü bunu yapmazsan **dosyaların bir rezale
 ## Yazı haritası
 
 1. ["Önceki sürüm" düğmesi hiç var olmadı](#reason-1)
-2. [30 günlük sürüm geçmişi bir yalan](#reason-2)
+2. [30 günlük sürüm geçmişinin koşulları var](#reason-2)
 3. [Sürüm geçmişi sana "ne zaman"ı söyler, "neden"i değil](#reason-3)
 4. [Adlandırma kuralları hafızayı insanların sırtına yükler](#reason-4)
 5. [Keeply'nin cevap olmadığı durumlar](#limitations)
@@ -69,11 +69,11 @@ Araçlar senkronizasyonu seçti. **Değişikliklerin zaman çizelgesini sana gö
 
 > 2015 yılında, UCSD'de dilbilim doktora öğrencisi Will Styler tez dosyalarını kaybetti. 7 farklı yedek planı vardı. Her biri başarısız oldu. Sonradan bu deneyimi diğer öğrenciler için yazdı. Son cümle şuydu: "Fazlalık aptallığı engellemez." [Olayın tamamı](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ İlgili: [Tek bir bilgisayardaki yüksek lisans tezi: kimsenin seni uyarmadığı kumar](/tr/post/thesis-single-point-of-failure/)
+→ İlgili: [Tek bir bilgisayardaki yüksek lisans tezi: kimsenin seni uyarmadığı kumar](/en/post/thesis-single-point-of-failure/)
 
 ---
 
-## 2. 30 günlük sürüm geçmişi bir yalan {#reason-2}
+## 2. 30 günlük sürüm geçmişinin koşulları var {#reason-2}
 
 Tamam. Dropbox'ın gerçekten sürüm geçmişi olduğunu öğrendin. Rahatladın mı?
 
@@ -91,7 +91,7 @@ Günlük hayata çevirirsek: geçen çeyrekten bir müşteri brifingi arıyorsun
 30 günlük pencere "dün yanlışlıkla dosyamın üzerine yazdım" senaryosu için tasarlandı.
 "Müşterim gelecek hafta geçen çeyreğin sunumunu istiyor" senaryosu için — **yanlış aracı kullanmak seni istediğin yere götürmüyor**.
 
-→ İlgili: [Paylaşımlı klasörlerin gizli maliyeti](/tr/post/hidden-cost-shared-folders/)
+→ İlgili: [Paylaşımlı klasörlerin gizli maliyeti](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -153,7 +153,7 @@ Her ekip üyesi, her kayıtta, kuralı hatırlamak + uygulamak + zamanı olduğu
 Adlandırma kuralını hatırlamak **bir aracın yapması gereken iş**.
 Her bireyin disiplinine bırakılacak bir şey değil.
 
-→ İlgili: [AutoCAD ekibi yanlış sürümü yüklediğinde ne olur](/tr/post/autocad-wrong-version-crew/)
+→ İlgili: [AutoCAD ekibi yanlış sürümü yüklediğinde ne olur](/en/post/autocad-wrong-version-crew/)
 
 ---
 

@@ -32,7 +32,7 @@ No porque todos tengan TOC. Sino porque si no lo hacen, **los archivos se convie
 
 ---
 
-**TL;DR**: Las carpetas compartidas, Dropbox y el NAS **no fueron diseñados para gestionar el historial de archivos**. Tienen 4 vacíos estructurales, y cada uno te devuelve el trabajo a ti. Este artículo los desmonta uno por uno — y reconoce qué resuelve Keeply y qué no.
+> **TL;DR** —  Las carpetas compartidas, Dropbox y el NAS **no fueron diseñados para gestionar el historial de archivos**. Tienen 4 vacíos estructurales, y cada uno te devuelve el trabajo a ti. Este artículo los desmonta uno por uno — y reconoce qué resuelve Keeply y qué no.
 
 ## Mapa del artículo
 
@@ -69,7 +69,7 @@ Así que la herramienta eligió la sincronización. **No te muestra la línea de
 
 > En 2015, el doctorado en lingüística de la UCSD Will Styler perdió los archivos de su tesis. Tenía 7 planes de copia de seguridad distintos. Todos fallaron. Escribió un análisis del incidente para futuros estudiantes de posgrado. La última frase: "Redundancy doesn't prevent stupidity" (la redundancia no protege contra la estupidez). [Relato completo](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ Relacionado: [Por qué tener tu tesis en un solo ordenador es una apuesta que nadie te advirtió](/es/post/thesis-single-point-of-failure/)
+→ Relacionado: [Por qué tener tu tesis en un solo ordenador es una apuesta que nadie te advirtió](/en/post/thesis-single-point-of-failure/)
 
 ---
 
@@ -91,7 +91,7 @@ El límite de 30 días no es una restricción técnica, es una decisión comerci
 La ventana de 30 días fue diseñada para "sobreescribí el archivo de ayer sin querer".
 Para "mi cliente quiere la propuesta del trimestre pasado la semana que viene" — **usar la herramienta equivocada rara vez te da lo que buscas**.
 
-→ Relacionado: [El coste oculto de las carpetas compartidas](/es/post/hidden-cost-shared-folders/)
+→ Relacionado: [El coste oculto de las carpetas compartidas](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -153,7 +153,7 @@ Cada miembro del equipo, en cada guardado, tiene que recordar + querer + tener t
 Recordar una convención de nomenclatura es algo que **una herramienta debería hacer sola**.
 No algo que delegar en la disciplina de cada persona.
 
-→ Relacionado: [Cuando el equipo de AutoCAD cargó la versión equivocada](/es/post/autocad-wrong-version-crew/)
+→ Relacionado: [Cuando el equipo de AutoCAD cargó la versión equivocada](/en/post/autocad-wrong-version-crew/)
 
 ---
 

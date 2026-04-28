@@ -33,12 +33,12 @@ Sondern weil ohne diese Notlösung die Dateistruktur sofort **ein Chaos** wird. 
 
 ---
 
-**TL;DR**: Gemeinsame Ordner, Dropbox und NAS-Laufwerke **wurden nie für Dateiversionsverwaltung gebaut**. Sie haben 4 Konstruktionslücken — und jede schiebt die Arbeit zurück auf dich. Dieser Artikel zerlegt sie einzeln — und gibt offen zu, welche davon Keeply löst und welche nicht.
+> **TL;DR** —  Gemeinsame Ordner, Dropbox und NAS-Laufwerke **wurden nie für Dateiversionsverwaltung gebaut**. Sie haben 4 Konstruktionslücken — und jede schiebt die Arbeit zurück auf dich. Dieser Artikel zerlegt sie einzeln — und gibt offen zu, welche davon Keeply löst und welche nicht.
 
 ## Artikelübersicht
 
 1. [Den „Letzte Version"-Button gab es nie](#reason-1)
-2. [Die 30-Tage-Versionshistorie ist eine Lüge](#reason-2)
+2. [Die 30-Tage-Versionshistorie hat Einschränkungen](#reason-2)
 3. [Versionshistorie sagt dir wann, nicht warum](#reason-3)
 4. [Namenskonventionen wälzen das Gedächtnis auf Menschen ab](#reason-4)
 5. [Wann Keeply nicht die Antwort ist](#limitations)
@@ -70,11 +70,11 @@ Also wählten die Tools Synchronisation. **Den Zeitverlauf der Änderungen zeige
 
 > 2015 verlor Will Styler, Linguistik-Doktorand an der UCSD, seine Dissertationsdateien. Er hatte 7 verschiedene Backup-Pläne. Jeder einzelne davon versagte. Er schrieb den Vorfall für künftige Doktoranden auf. Der letzte Satz: „Redundancy doesn't prevent stupidity." [Vollständiger Bericht](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ Weiterführend: [Warum deine Masterarbeit auf einem einzigen Laptop ein Glücksspiel ist](/de/post/thesis-single-point-of-failure/)
+→ Weiterführend: [Warum deine Masterarbeit auf einem einzigen Laptop ein Glücksspiel ist](/en/post/thesis-single-point-of-failure/)
 
 ---
 
-## 2. Die 30-Tage-Versionshistorie ist eine Lüge {#reason-2}
+## 2. Die 30-Tage-Versionshistorie hat Einschränkungen {#reason-2}
 
 Gut. Du hast herausgefunden, dass Dropbox tatsächlich eine Versionshistorie hat. Kurz aufgeatmet?
 
@@ -92,7 +92,7 @@ Das 30-Tage-Limit ist keine technische Notwendigkeit — es ist eine Geschäftse
 Das 30-Tage-Fenster wurde für den Fall gebaut: „Ich habe gestern versehentlich überschrieben."
 Für „Mein Kunde will nächste Woche die Präsentation vom letzten Quartal" — **das falsche Tool einzusetzen bringt selten das, was man sich erhofft**.
 
-→ Weiterführend: [Die versteckten Kosten gemeinsamer Ordner](/de/post/hidden-cost-shared-folders/)
+→ Weiterführend: [Die versteckten Kosten gemeinsamer Ordner](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -154,7 +154,7 @@ Jedes Teammitglied, bei jedem Speichervorgang: muss sich erinnern + zustimmen + 
 Die Namenskonvention zu erinnern ist etwas, das **ein Tool einfach selbst erledigen sollte**.
 Es gehört nicht zur Disziplin jedes Einzelnen.
 
-→ Weiterführend: [Als das AutoCAD-Team die falsche Version lud](/de/post/autocad-wrong-version-crew/)
+→ Weiterführend: [Als das AutoCAD-Team die falsche Version lud](/en/post/autocad-wrong-version-crew/)
 
 ---
 

@@ -33,7 +33,7 @@ Não é porque as três pessoas são perfeccionistas obsessivas.
 
 ---
 
-**TL;DR**: Pastas compartilhadas, Dropbox e NAS **não foram projetados para gerenciar o histórico de arquivos**. Eles têm 4 lacunas estruturais, e cada uma empurra o trabalho de volta pra você. Este artigo desmonta cada uma — e admite quais o Keeply resolve e quais não resolve.
+> **TL;DR** —  Pastas compartilhadas, Dropbox e NAS **não foram projetados para gerenciar o histórico de arquivos**. Eles têm 4 lacunas estruturais, e cada uma empurra o trabalho de volta pra você. Este artigo desmonta cada uma — e admite quais o Keeply resolve e quais não resolve.
 
 ## Mapa do artigo
 
@@ -70,7 +70,7 @@ Então a ferramenta escolheu a sincronização. **Ela não te mostra a linha do 
 
 > Em 2015, Will Styler, doutorando em linguística da UCSD, perdeu os arquivos da sua dissertação. Ele tinha 7 planos de backup diferentes. Todos falharam. Ele escreveu um post-mortem para futuros alunos de pós-graduação. A última linha: "Redundancy doesn't prevent stupidity" (ter múltiplos backups não salva de bobagem). [Relato completo](https://wstyler.ucsd.edu/posts/lost_dissertation_files.html)
 
-→ Leia também: [Por que deixar sua dissertação num único computador é uma aposta que ninguém avisou que você estava fazendo](/pt-br/post/thesis-single-point-of-failure/)
+→ Leia também: [Por que deixar sua dissertação num único computador é uma aposta que ninguém avisou que você estava fazendo](/en/post/thesis-single-point-of-failure/)
 
 ---
 
@@ -92,7 +92,7 @@ O limite de 30 dias não é uma restrição técnica — é uma decisão de neg�
 A janela de 30 dias foi projetada para "eu acidentalmente sobrescrevi o arquivo de ontem."
 Para "meu cliente quer a proposta do trimestre passado de volta semana que vem" — **usar a ferramenta errada raramente te dá o que você precisa**.
 
-→ Leia também: [O custo oculto das pastas compartilhadas](/pt-br/post/hidden-cost-shared-folders/)
+→ Leia também: [O custo oculto das pastas compartilhadas](/en/post/hidden-cost-shared-folders/)
 
 ---
 
@@ -154,7 +154,7 @@ Cada membro da equipe, a cada salvamento, precisa lembrar + concordar + ter temp
 Lembrar de convenções de nomenclatura é algo que **uma ferramenta deveria simplesmente fazer**.
 Não algo a ser empurrado para a disciplina de cada pessoa.
 
-→ Leia também: [Quando a equipe de AutoCAD carregou a versão errada](/pt-br/post/autocad-wrong-version-crew/)
+→ Leia também: [Quando a equipe de AutoCAD carregou a versão errada](/en/post/autocad-wrong-version-crew/)
 
 ---
 

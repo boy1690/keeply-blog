@@ -76,8 +76,11 @@
     </g>
   </g>
 
-  <!-- Arrow between -->
-  <line x1="585" y1="320" x2="625" y2="320" stroke="url(#g-amber)" stroke-width="4" marker-end="url(#arrow)"/>
+  <!-- Arrow between (clean chevron shape, not stroke + marker) -->
+  <g transform="translate(575, 290)">
+    <path d="M0 30 L40 30 L40 18 L72 38 L40 58 L40 46 L0 46 Z"
+          fill="url(#g-amber)" filter="url(#shadow)"/>
+  </g>
 
   <!-- RIGHT: Ideal UI (3 columns: date, user, why) -->
   <g transform="translate(640, 110)" filter="url(#shadow)">
