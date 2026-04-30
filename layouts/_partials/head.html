@@ -2,7 +2,11 @@
 {{- $title := "" -}}
 {{- if $isHome -}}
   {{- $title = .Site.Title -}}
+{{- else if .IsPage -}}
+  {{/* Single posts: title only — saves 15 chars for SERP, freeing room for primary_keyword + hook. */}}
+  {{- $title = .Title -}}
 {{- else -}}
+  {{/* List pages (categories/tags/section): keep suffix so users can tell which site. */}}
   {{- $title = printf "%s · %s" .Title .Site.Title -}}
 {{- end -}}
 {{- $description := or .Description .Summary .Site.Params.description -}}
