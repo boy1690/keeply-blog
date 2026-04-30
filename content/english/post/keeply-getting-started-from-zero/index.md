@@ -1,7 +1,7 @@
 ---
 title: "How to use Keeply: skip 30 features, get on board with 2 actions"
 description: "You don't need to become an expert first. Drag a folder in, keep working — version history is already running."
-date: 2026-05-08T09:00:00+08:00
+date: 2026-04-30T09:00:00+08:00
 slug: keeply-getting-started-from-zero
 locale: en
 primary_keyword: "how to use Keeply"

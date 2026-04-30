@@ -1,7 +1,7 @@
 ---
 title: "文件笔记软件 Keeply 怎么用：不用学 30 个功能，2 个动作就上手"
 description: "不必先变专家。把文件夹拖进去，继续工作——版本历史就生效了。"
-date: 2026-05-08T09:00:00+08:00
+date: 2026-04-30T09:00:00+08:00
 slug: keeply-getting-started-from-zero
 locale: zh-CN
 primary_keyword: "Keeply 怎么用"

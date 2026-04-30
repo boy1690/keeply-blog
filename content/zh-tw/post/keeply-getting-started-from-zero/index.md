@@ -1,7 +1,7 @@
 ---
 title: "檔案記事軟體 Keeply 怎麼用：不用學 30 個功能，2 個動作就上手"
 description: "不必先變專家。把資料夾拖進去，繼續工作——版本歷史就生效了。"
-date: 2026-05-08T09:00:00+08:00
+date: 2026-04-30T09:00:00+08:00
 slug: keeply-getting-started-from-zero
 locale: zh-TW
 primary_keyword: "Keeply 怎麼用"

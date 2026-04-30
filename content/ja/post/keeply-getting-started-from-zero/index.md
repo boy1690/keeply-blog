@@ -1,7 +1,7 @@
 ---
 title: "ファイル記録ソフト Keeply の使い方：30機能を学ばず、2アクションで使いこなせる"
 description: "先に専門家になる必要はありません。フォルダをドラッグして入れて、仕事を続けるだけ——バージョン履歴がもう動いています。"
-date: 2026-05-08T09:00:00+08:00
+date: 2026-04-30T09:00:00+08:00
 slug: keeply-getting-started-from-zero
 locale: ja
 primary_keyword: "Keeply 使い方"
