@@ -95,8 +95,16 @@
 {{- /* Content Security Policy fallback (defence-in-depth; Cloudflare header
        CSP is authoritative). frame-ancestors / HSTS / Permissions-Policy are
        header-only and live in the Cloudflare Transform Rule. */ -}}
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://cloudflareinsights.com; form-action 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://cloudflareinsights.com; form-action 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests" />
 <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+{{- /* Google Analytics 4 — externalised init (avoids 'unsafe-inline' in script-src).
+       Loader is async; init is a separate fingerprinted asset with SRI. */ -}}
+{{- with site.Config.Services.GoogleAnalytics.ID -}}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  {{- $gaInit := resources.Get "js/ga-init.js" | resources.ExecuteAsTemplate "js/ga-init.js" . | resources.Fingerprint "sha384" -}}
+  <script src="{{ $gaInit.RelPermalink }}" integrity="{{ $gaInit.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end -}}
 
 {{- /* Stylesheet (SRI via Hugo fingerprint) */ -}}
 {{- $css := resources.Get "css/style.css" | resources.Fingerprint "sha384" -}}

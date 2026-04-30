@@ -13,6 +13,10 @@ enableEmoji = true
 [build]
   writeStats = true
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-W08QHBQWDK"
+
 [markup]
   [markup.goldmark.renderer]
     unsafe = true  # 允許 HTML in markdown
