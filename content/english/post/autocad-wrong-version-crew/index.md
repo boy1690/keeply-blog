@@ -1,5 +1,5 @@
 ---
-title: "Why Your Crew Keeps Getting the Wrong AutoCAD File: The Field's on the Old Drawing, the Office Has the New One"
+title: "Why your crew keeps opening last week's AutoCAD drawing"
 description: "It's 9:40 AM, you stop by the office, and the PM pulls up last Thursday's revision — the frame spec changed. You've been on site every day, nobody told you. The concrete's already poured. A field supervisor's practical guide to drawing version control: no new tools for the crew, no workflow overhaul, just a way to make every revision leave its own trail."
 slug: "autocad-wrong-version-crew"
 date: 2026-04-24
