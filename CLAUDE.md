@@ -40,6 +40,11 @@ Note：`Z:\keeply-blog\` 需要 `git config --global --add safe.directory '%(pre
 
 - **P0.1** 禁用 Git 術語。永不。散文、隱喻、類比都不行。
   禁用詞：commit、branch、rebase、merge、HEAD、diff、push、pull、stash、repository、checkout、master、main、origin
+  - **P0.1 dev-audience SOP**（v0.2.12，從 vibe-coding-rollback cluster 抽出）：當文章針對 dev / vibe coder / AI-pair programmer 受眾時，**作者 + 翻譯 agent 都必須**：
+    1. **替代詞表**：commit → 存檔點 / 自動儲存點 / "save point"；diff → 變動內容 / 變更內容 / "changes"；revert / checkout → 還原 / "restore"；stash → 暫存區（避免使用）；branch → 分支（避免）；merge（version-control 意義）→ 合併（避免）
+    2. **Keeply 定位句**：「**任何檔案的 history 守護網**」（含 code / config / data / AI 生成輸出，比一般 dev tool 範圍更廣），**不是**「給非開發者的 Git」
+    3. **翻譯 agent 必加**：dispatch 翻譯 dev-audience cluster 時，agent prompt 必含 forbidden term list（locale-specific：en + zh-CN 簡體 + ja 含 katakana 形式），agent self-audit 0 violations 才能 finalize
+    4. **驗證**：finalize 前跑 `grep -i "commit\|branch\|rebase\|stash\|repository\|checkout"` 對 final 文件，必須 0 命中
 - **P0.2** 永不把 Keeply 定位為「給非開發者的 Git」。Keeply 不是 Git-derived，是為了讓不學 Git 的人也能管檔案歷史。
 - **P0.3** 禁寫競品 hit-piece。比較文必須事實、具體、承認對方何時是對的選擇。
 - **P0.4** 禁捏造統計。每個數字必須有外部可訪問 URL 引用（學術、機構、大廠公開調查）。內部估算不得作為論證主幹；只能在已有外部引用旁做補充運算（例：外部研究顯示 X → 本文換算 Y）。若找不到外部引用，刪掉數字用定性論述。
